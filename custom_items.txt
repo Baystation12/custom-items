@@ -39,3 +39,259 @@
 # kit_icon: salvage
 # }
 ##
+
+{
+ckey: readingsteiner
+character_name: Curt Conrad
+item_path: /obj/item/clothing/mask/gas/plaguedoctor
+}
+{
+ckey: readingsteiner
+character_name: Curt Conrad
+item_path: /obj/item/weapon/coin/gold
+}
+{
+ckey: matthew951
+character_name: Korom Bhararaya
+item_path: /obj/item/weapon/kitchenknife/hook
+}
+{
+ckey: searif
+character_name: Yuki Matsuda
+item_path: /obj/item/toy/prize/durand
+}
+{
+ckey: serenemelody
+character_name: Mai Yang
+item_path: /obj/item/clothing/under/cheongsam
+}
+{
+ckey: vivallion
+character_name: Kecer Eldraran
+item_path: /obj/item/clothing/shoes/jackboots/unathi
+}
+{
+ckey: mkalash
+character_name: Naji Tharama
+item_path: /obj/item/weapon/storage/wallet
+}
+{
+ckey: mangled
+character_name: Li Matsuda
+item_name: blue zippo lighter
+item_desc: A zippo lighter made of some blue metal.
+item_icon: bluezippo
+item_path: /obj/item/weapon/flame/lighter/zippo
+}
+{
+ckey: vivallion
+character_name: Isaac Jachym
+item_name: butterfly lighter
+item_desc: A custom-made zippo lighter, looks rather expensive. On one of it's sides, a clean inscription has been made, 'Butterfly, what is your wisdom?' And I looked down at it's majestic form, flexing it's wings as if to show it's strength. 'Fuck chechenya.' Had it whispered, before fluttering away, and so we went to war.'
+item_icon: che_zippo
+item_path: /obj/item/weapon/flame/lighter/zippo
+}
+{
+ckey: ziepes
+character_name: Janis Godmanis
+item_name: red-white-red zippo
+item_desc: A badass zippo that looks like the Austrian flag. Upon closer inspection it is revealed that it's a different shade of red than the Austrian flag.
+item_icon: redzippo
+item_path: /obj/item/weapon/lighter/zippo/fluff/janis_godmanis
+}
+{
+ckey: astronovus
+character_name: Harold Greenwood
+item_name: Harold's cane
+item_desc: A cane with a wooden handle and a plastic frame capable of folding itself to make it more storable.
+item_path: /obj/item/weapon/cane
+item_icon: foldcane
+}
+{
+ckey: meyar
+character_name: Arleen Ryals
+item_desc: This cane seems to have 'Ryals' engraved on its handle.
+item_path: /obj/item/weapon/cane/fluff/ryals
+}
+{
+ckey: brosephstylin
+character_name: Joseph Lombardi
+item_path: /obj/item/clothing/suit/storage/toggle/fr_jacket/ems
+}
+{
+ckey: chinsky
+character_name: Victor Kaminski
+item_desc: NanoTrasen Security Department detective's badge, made from gold. Badge number is 564.
+item_path: /obj/item/clothing/accessory/badge
+}
+{
+ckey: donofnyc3
+character_name: Oen'g Issek
+item_name: primitive mask
+item_desc: A decorated and creepy gas mask with the filters removed.
+item_icon: issek_mask
+item_path: /obj/item/clothing/mask/surgical
+}
+{
+ckey: fekkor
+character_name: Sophie Rogers
+item_name: Sophie's belt
+item_desc: A tool-belt in Atmos colours.
+item_icon: sophie_belt
+item_path: /obj/item/weapon/storage/belt/utility/full
+}
+{
+ckey: footman04
+character_name: Fazh Al-Nalik
+item_path: /obj/item/toy/plushie/farwa
+{
+ckey: fyshen
+character_name: Lucina Franco
+item_name: MIT labcoat
+item_desc: A lab coat from the Martian Institute of Technology with the name 'Dr. Lucina Franco' embroidered onto the right breast pocket."
+item_path: /obj/item/clothing/suit/storage/toggle/labcoat
+}
+{
+ckey: jadepython
+character_name: Thysse Ezinwa
+item_name: medical eyepatch
+item_desc: On the strap, EZINWA is written in white block letters.
+item_path: /obj/item/clothing/glasses/eyepatch
+}
+{
+ckey: jakksergal
+character_name: Nashi Ra'hal
+item_name: rainbow medical belt
+item_desc: A somewhat-worn, modified, rainbow belt.
+item_icon: nashi_belt
+item_path: /obj/item/weapon/storage/belt/medical
+}
+{
+ckey: kocoa
+character_name: Kaine Kalim
+item_name: formal medical cap"
+item_desc: An unusually sterile and folded cap. It seems to bear the Nanotrasen logo.
+item_icon: kainecap
+item_path: /obj/item/clothing/head
+}
+{
+ckey: kocoa
+character_name: Kaine Kalim
+item_name: formal medical uniform
+item_desc: An unusually sterile and pressed uniform. It seems to have a string of vials crossing the chest.
+item_icon: kaineuniform
+item_path: /obj/item/clothing/under
+}
+{
+ckey: masterrbc
+character_name: Robert Mason
+item_name: corporate cap
+item_desc: It's a baseball hat in corporate colors.
+item_path: /obj/item/clothing/head/soft/sec/corp
+}
+{
+ckey: papadrow
+character_name: Lillian Amsel
+item_name: black dress
+item_desc: A knee-length, dark gray and black dress made of a soft, velvety material.
+item_icon: lillian_dress
+item_path: /obj/item/clothing/under
+}
+{
+ckey: paradoxon
+character_name: Qokkri Xilo
+item_name: Skrellian tailwear
+item_desc: An ensemble of sophisticated jewels and bands, most likely belonging to a scientific Skrell.
+item_icon: xilobeads
+item_path: /obj/item/clothing/ears
+}
+{
+ckey: raptor1628
+character_name: Ronan Harper
+item_name: PRC Uniform
+item_desc: A well maintained uniform from one of the many Private Security firms Nanotrasen hires from. The name Harper is printed on the back.
+item_icon: harper_uniform
+item_path: /obj/item/clothing/under/rank/security
+}
+{
+ckey: ravensdale
+character_name: Sakura Hokkaido
+item_name: sakura kimono
+item_desc: A pale-pink, nearly white, kimono with a red and gold obi. There is a embroidered design of cherry blossom flowers covering the kimono.
+item_icon: sakura_hokkaido_kimono
+item_path: /obj/item/clothing/under
+}
+{
+ckey: serithi
+character_name: Korr'aj Dostek
+item_name: adapted helmet
+item_desc: Standard Security gear. Protects the head from impacts. This helmet is specially made for horned Unathi.
+item_icon: adapted_h
+item_path: /obj/item/clothing/head/helmet
+}
+{
+ckey: sicktrigger
+character_name: David Fanning
+item_name: golden scalpel
+item_desc: A fine surgical cutting tool covered in thin gold leaf. Does not seem able to cut anything.
+item_icon: david_fanning_1
+item_path: /obj/item
+}
+{
+ckey: tudoreleuu
+character_name: Emilia Scott
+item_name: customized pAI unit
+item_desc: It seems to be a pAI unit, albeit in a different shell. It acts exactly like the normal one.
+item_icon: customized_pai
+item_path: /obj/item/device/paicard
+}
+{
+ckey: von2531
+character_name: Jack Washington
+item_name: colonial marine beret
+item_desc: A well-worn navy blue beret. The insignia of the Martian Colonial Marine Corps is affixed to the front.
+item_path: /obj/item/clothing/head/beret/sec/alt
+}
+{
+ckey: yankeesamurai
+character_name: Hali Ishimaru
+item_name: duty boots
+item_desc: Eight-inch black leather boots with side zips and NT-approved safety toes.
+item_path: /obj/item/clothing/shoes/jackboots
+}
+{
+ckey: zekesulastin
+character_name: Matthew Riebhardt
+item_name: academic journal
+item_desc: An academic journal, seemingly pertaining to medical genetics. This issue is for the second quarter of 2557. Paper flags demarcate some articles the owner finds interesting.
+item_icon: matthewriebhardt
+item_path: /obj/item/weapon/folder/blue
+}
+{
+ckey: andrewmeythaler
+character_name: Dante Cicero
+item_name = painted mask
+item_desc = A ghoulish mask with a stylized painting of a flame over the left eye, and a painted tear stream coming from the right eye.
+item_icon: cicero
+item_path: /obj/item/clothing/mask
+}
+{
+ckey: solaruin
+character_name: Cybele Petit
+item_path: /obj/item/device/kit/suit
+item_name: salvage voidsuit modification kit
+item_desc: A kit containing all the needed tools and parts to modify a voidsuit into a salvage voidsuit.
+kit_name: salvage
+kit_icon: salvage
+kit_desc: A piece of orange voidsuit armour used by salvage flotillas. Has reinforced plating.
+}
+{
+ckey: roaper
+character_name: Callum Leamas
+item_path: /obj/item/device/kit/suit
+item_name: Callum's voidsuit modification kit
+item_desc: A kit containing all the needed tools and parts to modify a voidsuit.
+kit_name: weathered
+kit_icon: roaper
+kit_desc: A jury-rigged and modified section of engineering voidsuit armour. It looks slightly damaged and dinged.
+}
