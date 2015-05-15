@@ -295,3 +295,11 @@ kit_name: weathered
 kit_icon: roaper
 kit_desc: A jury-rigged and modified section of engineering voidsuit armour. It looks slightly damaged and dinged.
 }
+{
+ckey: ragnie
+character_name: Chloe Chartreuse
+item_path: /obj/item/clothing/accessory
+item_name: omega trinket
+item_desc: A plain looking trinket in the shape of the Omega letter. It's made of sterling silver.
+item_icon = chloetrinket
+}
