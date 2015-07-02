@@ -305,3 +305,11 @@ item_name: omega trinket
 item_desc: A plain looking trinket in the shape of the Omega letter. It's made of sterling silver.
 item_icon: chloetrinket
 }
+{
+ckey: dark_kota
+character_name: Adrian Calhoun
+item_path: /obj/item/clothing/head/helmet/warden
+item_name: Carver's hat
+item_desc: It's a special hat issued to the Warden of a security force. This one has the word "CARVER" stitched in silver thread on the back of it.
+req_titles: Warden
+}
