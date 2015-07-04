@@ -320,3 +320,11 @@ item_name: polka-dot bowtie
 item_icon: bowtie_ugly
 item_desc: A polka-dot neosilk bowtie.You avoid staring at that awful pattern, lest you become ill.
 }
+{
+ckey: dark_kota
+character_name: Adrian Calhoun
+item_path: /obj/item/clothing/head/helmet/warden
+item_name: Carver's hat
+item_desc: It's a special hat issued to the Warden of a security force. This one has the word "CARVER" stitched in silver thread on the back of it.
+req_titles: Warden
+}
