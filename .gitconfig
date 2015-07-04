@@ -1,0 +1,3 @@
+[merge "merge-dmi"]
+	name = iconfile merge driver
+	driver = ./tools/dmitool/dmimerge.sh %O %A %B
