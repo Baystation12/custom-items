@@ -306,10 +306,41 @@ item_desc: A plain looking trinket in the shape of the Omega letter. It's made o
 item_icon: chloetrinket
 }
 {
+ckey: emmanuelbassil
+character_name: Noah Bedran
+item_path: /obj/item/toy/bosunwhistle
+item_name: captain's whistle  
+item_desc: A small, compact blue whistle; with the NT logo engraved on its side. It hangs from a golden chain.
+}
+{
+ckey: lorenluke
+character_name: Loren Leimer
+item_path: /obj/item/clothing/accessory
+item_name: polka-dot bowtie
+item_icon: bowtie_ugly
+item_desc: A polka-dot neosilk bowtie.You avoid staring at that awful pattern, lest you become ill.
+}
+{
+ckey: dark_kota
+character_name: Adrian Calhoun
+item_path: /obj/item/clothing/head/helmet/warden
+item_name: Carver's hat
+item_desc: It's a special hat issued to the Warden of a security force. This one has the word "CARVER" stitched in silver thread on the back of it.
+req_titles: Warden
+}
+{
 ckey: dragor23
 character_name: Axthaxiotl Derredo
 item_path: /obj/item/weapon/material/knife
 item_name: obsidian ritual knife
 item_desc: A curved blade made of obsidian, black as night. 
 item_icon: obsidianknife
+}
+{
+ckey: wickedtemp
+character_name: Tempest Huxley
+item_path: /obj/item/clothing/mask/gas/plaguedoctor
+item_name: Huxley's mask
+item_desc: A modernized version of a classic design, this mask will not only filter out phoron but it can also be connected to an air supply. This one is colored purple, and has the name 'Huxley' written in small print on the back.
+item_icon: huxley_mask
 }
