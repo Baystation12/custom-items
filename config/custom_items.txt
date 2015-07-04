@@ -312,3 +312,11 @@ item_path: /obj/item/toy/bosunwhistle
 item_name: captain's whistle  
 item_desc: A small, compact blue whistle; with the NT logo engraved on its side. It hangs from a golden chain.
 }
+{
+ckey: lorenluke
+character_name: Loren Leimer
+item_path: /obj/item/clothing/accessory
+item_name: polka-dot bowtie
+item_icon: bowtie_ugly
+item_desc: A polka-dot neosilk bowtie.You avoid staring at that awful pattern, lest you become ill.
+}
