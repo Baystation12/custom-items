@@ -305,3 +305,11 @@ item_name: omega trinket
 item_desc: A plain looking trinket in the shape of the Omega letter. It's made of sterling silver.
 item_icon: chloetrinket
 }
+{
+ckey: dragor23
+character_name: Axthaxiotl Derredo
+item_path: /obj/item/weapon/material/knife
+item_name: obsidian ritual knife
+item_desc: A curved blade made of obsidian, black as night. 
+item_icon: obsidianknife
+}
