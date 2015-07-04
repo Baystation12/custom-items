@@ -328,3 +328,11 @@ item_name: Carver's hat
 item_desc: It's a special hat issued to the Warden of a security force. This one has the word "CARVER" stitched in silver thread on the back of it.
 req_titles: Warden
 }
+{
+ckey: dragor23
+character_name: Axthaxiotl Derredo
+item_path: /obj/item/weapon/material/knife
+item_name: obsidian ritual knife
+item_desc: A curved blade made of obsidian, black as night. 
+item_icon: obsidianknife
+}
