@@ -73,7 +73,10 @@ item_path: /obj/item/clothing/shoes/jackboots/unathi
 {
 ckey: mkalash
 character_name: Naji Tharama
-item_path: /obj/item/weapon/storage/wallet
+item_path: /obj/item/clothing/accessory/medal
+item_name: Star of Bravery
+item_icon: gold_star
+item_desc: A gold star. Inscribed on the back is "This STAR OF BRAVERY is awarded to NAJI THARAMA."
 }
 {
 ckey: mangled
