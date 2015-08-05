@@ -347,3 +347,12 @@ item_name: Huxley's mask
 item_desc: A modernized version of a classic design, this mask will not only filter out phoron but it can also be connected to an air supply. This one is colored purple, and has the name 'Huxley' written in small print on the back.
 item_icon: huxley_mask
 }
+{
+ckey: chike101
+character_name: Richard Cooper
+item_path: /obj/item/clothing/under/det
+item_name: forensics shirt
+item_icon: cooper_uniform
+item_desc: Some men value uniformity and cleanliness. Some call these men the best of NT Security. This uniform clearly does not belong to one of those men.
+req_titles: Detective, Forensic Technician
+}
