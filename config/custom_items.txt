@@ -350,9 +350,8 @@ item_icon: huxley_mask
 {
 ckey: chike101
 character_name: Richard Cooper
-item_path: /obj/item/clothing/under/det
-item_name: forensics shirt
-item_icon: cooper_uniform
-item_desc: Some men value uniformity and cleanliness. Some call these men the best of NT Security. This uniform clearly does not belong to one of those men.
-req_titles: Detective, Forensic Technician
+item_path: /obj/item/clothing/under
+item_name: exotic shirt
+item_icon: cooper_outfit
+item_desc: A laid-back ancient-earth hawaiian shirt and pants, which have little to do with infinity or jelly donuts.
 }
