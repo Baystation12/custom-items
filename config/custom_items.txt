@@ -364,3 +364,12 @@ item_name: Heartshaped Locket
 item_icon: maria_locket
 item_desc: A silver, heart-shaped locket. It flips open to reveal two pictures, one of a young red-headed woman and one of a brunette of similar age. Small writing is etched onto the back, reading 'M+L'. Some may regard it as cheesy.
 }
+
+{
+ckey: shadowofman
+character_name: Daniel Phillips
+item_path: /obj/item/device/radio
+item_name: Handheld Communicator
+item_icon: daniel_comms
+item_desc: A small handled communicator, it bears a faded "H" on its back. It has two numbered dials on the front below a screen.
+}
