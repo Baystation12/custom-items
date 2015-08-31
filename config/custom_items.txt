@@ -366,15 +366,6 @@ item_desc: A silver, heart-shaped locket. It flips open to reveal two pictures, 
 }
 
 {
-ckey: shadowofman
-character_name: Daniel Phillips
-item_path: /obj/item/device/radio
-item_name: Handheld Communicator
-item_icon: daniel_comms
-item_desc: A small handled communicator, it bears a faded "H" on its back. It has two numbered dials on the front below a screen.
-}
-
-{
 ckey: sabess
 character_name: Maria Fontaine
 item_path: /obj/item/clothing/accessory/locket
