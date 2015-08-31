@@ -373,3 +373,57 @@ item_name: Handheld Communicator
 item_icon: daniel_comms
 item_desc: A small handled communicator, it bears a faded "H" on its back. It has two numbered dials on the front below a screen.
 }
+
+{
+ckey: sabess
+character_name: Maria Fontaine
+item_path: /obj/item/clothing/accessory/locket
+item_name: Heartshaped Locket
+item_icon: maria_locket
+item_desc: A silver, heart-shaped locket. It flips open to reveal two pictures, one of a young red-headed woman and one of a brunette of similar age. Small writing is etched onto the back, reading 'M+L'. Some may regard it as cheesy.
+}
+
+{
+ckey: derpislav
+character_name: Kalta Legates
+item_path: /obj/item/clothing/gloves/grey
+item_name: Padded Glove
+item_icon: kaltaglove
+item_desc: A very tight elbow-long left glove, fitted with various inserts and rigid plating. Paired with a standard right glove. Proudly bears the letters "NT".
+}
+
+{
+ckey: mewth
+character_name: Aliq Ma'sari-Dar
+item_path: /obj/item/clothing/gloves/brown
+item_name: Worn Leather Gloves
+item_icon: aliqgloves
+item_desc: A pair of worn, leather gloves. They seem to be fit for clawed species. They have a tag on the inside with "Aliq" written on them.
+}
+
+{
+ckey: shadow_of_man
+character_name: Daniel Phillips
+item_path: /obj/item/device/radio
+item_name: Handheld Communicator
+item_icon: phoneradio
+item_desc: A small handheld communicator, it bears a faded letter "H" on its back. It has two numbered dials on its front below a screen.
+}
+
+{
+ckey: slayerhero90
+character_name: Hyacinthe Bisset
+item_path: /obj/item/clothing/under/wedding
+item_name: Red Flame Dress
+item_icon: redflame
+item_desc:  A small black dress with red flames.
+}
+
+{
+ckey: wickedtemp
+character_name: Tempest Huxley
+item_path: /obj/item/clothing/glasses/hud/health
+item_name: Purple MedHUD
+item_icon: huxhud
+item_desc:  A heads-up display that scans the humans in view and provides accurate data about their health status. This one has a purple lens, and has "Huxley" engraved on the side in small print.
+}
