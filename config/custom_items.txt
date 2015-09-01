@@ -366,15 +366,6 @@ item_desc: A silver, heart-shaped locket. It flips open to reveal two pictures, 
 }
 
 {
-ckey: sabess
-character_name: Maria Fontaine
-item_path: /obj/item/clothing/accessory/locket
-item_name: Heartshaped Locket
-item_icon: maria_locket
-item_desc: A silver, heart-shaped locket. It flips open to reveal two pictures, one of a young red-headed woman and one of a brunette of similar age. Small writing is etched onto the back, reading 'M+L'. Some may regard it as cheesy.
-}
-
-{
 ckey: derpislav
 character_name: Kalta Legates
 item_path: /obj/item/clothing/gloves/grey
