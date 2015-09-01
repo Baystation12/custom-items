@@ -407,7 +407,7 @@ character_name: Hyacinthe Bisset
 item_path: /obj/item/clothing/under/wedding
 item_name: Red Flame Dress
 item_icon: redflame
-item_desc:  A small black dress with red flames.
+item_desc: A small black dress with red flames.
 }
 
 {
@@ -416,5 +416,33 @@ character_name: Tempest Huxley
 item_path: /obj/item/clothing/glasses/hud/health
 item_name: Purple MedHUD
 item_icon: huxhud
-item_desc:  A heads-up display that scans the humans in view and provides accurate data about their health status. This one has a purple lens, and has "Huxley" engraved on the side in small print.
+item_desc: A heads-up display that scans the humans in view and provides accurate data about their health status. This one has a purple lens, and has "Huxley" engraved on the side in small print.
+}
+
+
+{
+ckey: morguemeat
+character_name: Skreaaakiskrekakra
+item_path: /obj/item/clothing/under/dress
+item_name: Vox Servant's Dress
+item_icon: skreadress
+item_desc: A dress tailored for an NT employed Vox. Suitable for a maid, but also fitting for other low level positions aboard a Space station.
+}
+
+{
+ckey: crushtoe
+character_name: Javon Cressman
+item_path: /obj/item/device/ano_scanner
+item_name: Alden-Saraspova Portable Spectrometer
+item_icon: javscanner
+item_desc: A top of the line model of Alden-Saraspova Counter, looks expensive. Has the name "Cressman" taped on the back.
+}
+
+{
+ckey: linearb
+character_name: Trenton Newbern
+item_path: /obj/item/trash/plate
+item_name: Mustache Wax
+item_icon: linearbwax
+item_desc: An aluminum tin of mustache wax, decorated with ridiculous handlebar mustache on the top. "Property of Trenton Newbern: DO NOT STEAL!!" is written in small letters on one side.
 }
