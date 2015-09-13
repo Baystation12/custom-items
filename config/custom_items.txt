@@ -384,7 +384,7 @@ item_desc: A pair of worn, leather gloves. They seem to be fit for clawed specie
 }
 
 {
-ckey: shadow_of_man
+ckey: shadowofman
 character_name: Daniel Phillips
 item_path: /obj/item/device/radio
 item_name: Handheld Communicator
