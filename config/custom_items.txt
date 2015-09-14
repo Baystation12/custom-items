@@ -324,7 +324,7 @@ item_icon: bowtie_ugly
 item_desc: A polka-dot neosilk bowtie.You avoid staring at that awful pattern, lest you become ill.
 }
 {
-ckey: dark_kota
+ckey: darkkota
 character_name: Adrian Calhoun
 item_path: /obj/item/clothing/head/helmet/warden
 item_name: Carver's hat
@@ -439,7 +439,7 @@ item_desc: An aluminum tin of mustache wax, decorated with ridiculous handlebar 
 }
 
 {
-ckey: Foxeye
+ckey: foxeye
 character_name: John Saaland
 item_path: /obj/item/clothing/under
 item_name: GA Jumpsuit
