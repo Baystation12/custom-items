@@ -275,8 +275,8 @@ item_path: /obj/item/weapon/folder/blue
 {
 ckey: andrewmeythaler
 character_name: Dante Cicero
-item_name = painted mask
-item_desc = A ghoulish mask with a stylized painting of a flame over the left eye, and a painted tear stream coming from the right eye.
+item_name: painted mask
+item_desc: A ghoulish mask with a stylized painting of a flame over the left eye, and a painted tear stream coming from the right eye.
 item_icon: cicero
 item_path: /obj/item/clothing/mask
 }
