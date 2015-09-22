@@ -1,5 +1,5 @@
 language: python
 sudo: false
 script:
-  - python tools/CustomConfigVerifier/verify-custom-items.py ./config/custom-items.txt
-  - python tools/CustomConfigVerifier/verify-custom-sprites.py ./config/custom-sprites.txt
+  - python tools/CustomConfigVerifier/verify-custom-items.py config/custom_items.txt
+  - python tools/CustomConfigVerifier/verify-custom-sprites.py config/custom_sprites.txt
