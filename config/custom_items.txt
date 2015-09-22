@@ -358,7 +358,7 @@ item_desc: A laid-back ancient-earth hawaiian shirt and pants, which have little
 
 {
 ckey: sabess
-character_name: Maria Fontaine
+character_name: Maria Korchnoi
 item_path: /obj/item/clothing/accessory/locket
 item_name: Heartshaped Locket
 item_icon: maria_locket
