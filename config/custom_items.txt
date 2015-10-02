@@ -459,7 +459,7 @@ item_desc: A crisp set of black scrubs. A name is embroidered onto the breast, "
 {
 ckey: yoshax
 character_name: Carmine Adams
-item_path: /obj/item/clothing/under/rank/medical
+item_path: /obj/item/clothing/gloves/latex
 item_name: Adams Corporation Latex Gloves
 item_icon: carminegloves
 item_desc: A pair of black latex gloves.
