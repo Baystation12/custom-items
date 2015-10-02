@@ -446,3 +446,21 @@ item_name: GA Jumpsuit
 item_icon: saaland
 item_desc: A tan jumpsuit, robustly constructed, with various velcro strips for name and ranking patches distributed over the torso and shoulders. Only one of these strips is in use, holding a patch with "J. SAALAND" written on it in block lettering over the right breast pocket.
 }
+
+{
+ckey: yoshax
+character_name: Carmine Adams
+item_path: /obj/item/clothing/under/rank/medical
+item_name: Adams Corporation Scrubs
+item_icon: carmine
+item_desc: A crisp set of black scrubs. A name is embroidered onto the breast, "Dr. C. Adams." Above the name is a logo and the name of organisation, "Adams Corporation".
+}
+
+{
+ckey: yoshax
+character_name: Carmine Adams
+item_path: /obj/item/clothing/under/rank/medical
+item_name: Adams Corporation Latex Gloves
+item_icon: carminegloves
+item_desc: A pair of black latex gloves.
+}
