@@ -473,3 +473,13 @@ item_name: Carmine's Labcoat
 item_icon: carminecoat_open
 item_desc: A dark black labcoat that appears to be slightly frayed around the edges, the colour seems to be slightly faded. On the breast is a small name-tag, "Carmine Adams - #39".
 }
+
+{
+ckey: emgee
+character_name: Vincent Vargas
+item_path: /obj/item/clothing/glasses/sunglasses/prescription
+item_name: horn-rimmed glasses
+item_icon: emgee_glasses
+item_desc: "A pair of stylish(?) prescription eyeglasses with a brown frame and silver rim from the Xa'lai Eyewear collection. These ones seem to have photochromic lenses that darken when they are exposed to a bright light."
+req_titles: Captain, Head of Personnel, Head of Security, Internal Affairs
+}
