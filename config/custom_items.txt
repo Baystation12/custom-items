@@ -485,7 +485,7 @@ req_titles: Captain, Head of Personnel, Head of Security, Internal Affairs
 }
 
 {
-ckey: Nerezza
+ckey: nerezza
 character_name: Kahra Haytam
 item_path: /obj/item/clothing/glasses/welding
 item_name: gogglepatch
