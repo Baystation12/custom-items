@@ -501,3 +501,11 @@ item_name: disheveled suit
 item_icon: evigil-disheveled_suit
 item_desc: A rumpled, stained dress shirt, paired with wrinkled black slacks and a mysteriously crinkly thin black tie.
 }
+{
+ckey: haswell 
+character_name: Kelsey Hartling
+item_path: /obj/item/clothing/suit/storage/toggle/bomber
+item_name: Combat Medic Jacket
+item_icon: khartling_bomber_open
+item_desc: A thick, well-worn leather jacket with a crisp green cross sewn on the back.
+}
