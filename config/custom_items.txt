@@ -509,3 +509,13 @@ item_name: Combat Medic Jacket
 item_icon: khartling_bomber_open
 item_desc: A thick, well-worn leather jacket with a crisp green cross sewn on the back.
 }
+
+{
+ckey: devildabeast
+character_name: Looping Song
+item_path: /obj/item/clothing/suit/storage/labcoat
+item_name: e UMi labcoat
+item_icon: labcoat_black_open
+item_desc: A suit that protects against minor chemical spills. Has a black stripe on the shoulder. The abbreviation \"e UMi\" is written on the back in bold text.
+req_titles: Medical Doctor, Surgeon, Virologist, Chief Medical Officer, Chemist
+}
