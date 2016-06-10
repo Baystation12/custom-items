@@ -496,10 +496,10 @@ item_desc: A rumpled, stained dress shirt, paired with wrinkled black slacks and
 {
 ckey: haswell 
 character_name: Kelsey Hartling
-item_path: /obj/item/clothing/suit/storage/toggle/bomber
-item_name: Combat Medic Jacket
-item_icon: khartling_bomber_open
-item_desc: A thick, well-worn leather jacket with a crisp green cross sewn on the back.
+item_path: /obj/item/clothing/suit/storage/toggle/fr_jacket
+item_name: combat medic jacket
+item_icon: khartling_jacket_open
+item_desc: A thick, well-worn leather jacket with a crisp green cross sewn on the back. The zipper appears to have torn off. There are dulled patches of motor oil and blood on the fabric.
 }
 {
 ckey: devildabeast
