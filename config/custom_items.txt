@@ -533,3 +533,11 @@ item_name: Tattered Armor
 item_icon: vox-scrakipace
 item_desc: A Tattered mess of some plating. It looks far too broken to actually protect you, and it smells far too bad to actually interest you.
 }
+{
+ckey: noblecaos
+character_name: Kaylee McDughlas
+item_path: /obj/item/clothing/head/helmet/space/emergency
+item_name: pilot helmet
+item_icon: pilot_helmet
+item_desc: A grey-ish red space pilot helmet with red star painted on either side. It has a yellow-tinted visor.
+}
