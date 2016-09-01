@@ -541,3 +541,12 @@ item_name: pilot helmet
 item_icon: pilot_helmet
 item_desc: A grey-ish red space pilot helmet with red star painted on either side. It has a yellow-tinted visor.
 }
+{
+ckey: aticius
+character_name: Aeci
+item_name: imperial smock
+item_desc:  It's a small, lightweight zip-up smock with light blue fabric and orange highlights. "A. McMullen" is sewn into the neck of the fabric.
+item_icon: aecismock
+item_path: /obj/item/clothing/under/resomi
+}
+
