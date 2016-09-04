@@ -549,4 +549,11 @@ item_desc:  It's a small, lightweight zip-up smock with light blue fabric and or
 item_icon: aecismock
 item_path: /obj/item/clothing/under/resomi
 }
-
+{
+ckey: thegreywolf
+character_name: Tasa
+item_path: /obj/item/clothing/suit/storage/toggle/labcoat
+item_name: Resistance Coat
+item_icon: tasacoat_open
+item_desc: A dark coat with orange stripes and a resistance symbol on the back. “Tasa” is sewn into the neck of the fabric.
+}
