@@ -568,7 +568,7 @@ item_desc: An almost colorlessly olive-green set of an insulated coat and a pair
 {
 ckey: masterrbc
 character_name: Jikkachakkita
-item_path: /obj/item/clothing/head/helmet/space
+item_path: /obj/item/clothing/head/helmet/space/emergency
 item_name: repurposed visor
 item_icon: vox-carapace-destroyed
 item_desc: It's an alien visor. It looks as though it was damaged and has been repaired.
