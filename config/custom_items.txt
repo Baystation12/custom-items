@@ -117,12 +117,6 @@ item_desc: This cane seems to have 'Ryals' engraved on its handle.
 item_path: /obj/item/weapon/cane/fluff/ryals
 }
 {
-ckey: brosephstylin
-character_name: Joseph Lombardi
-item_desc: 	A dark blue, martian-pattern, EMS jacket. It sports high-visibility reflective stripes, a star of life on the back, and has a nametag on the right side of the chest that reads 'Lombardi B-'.
-item_path: /obj/item/clothing/suit/storage/toggle/fr_jacket/ems
-}
-{
 ckey: chinsky
 character_name: Victor Kaminski
 item_desc: NanoTrasen Security Department detective's badge, made from gold. Badge number is 564.
@@ -580,4 +574,13 @@ item_path: /obj/item/weapon/photo
 item_name: Laminated Photograph
 item_icon: yurisphoto
 item_desc: You can see Yuri Kornienkovich on the photo. They are hugging Cienea.
+}
+{
+ckey: brosephstylin
+character_name: Jasper Dupont
+item_path: /obj/item/clothing/glasses/sunglasses/sechud/toggle
+item_name: protective eyewear
+item_icon: glasses_hud
+item_desc: Protective glasses that can switch between HUD and flash protection modes.
+req_titles: Security Officer, Warden, Head of Security
 }
