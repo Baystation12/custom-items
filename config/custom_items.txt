@@ -592,3 +592,11 @@ item_name: Photo
 item_icon: ashleyphoto
 item_desc: This is a photo showing Ashley and Mizir dancing together.
 }
+{
+ckey: spacesause13
+character_name: Norm Bawx
+item_path: /obj/item/trash
+item_name: souvenir thunderdome coin
+item_icon: coin_trophy
+item_desc: A grey coin with a sentence engraved that says, "Thunderdome Galactic cup 2558"
+}
