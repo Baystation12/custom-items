@@ -584,3 +584,11 @@ item_icon: glasses_hud
 item_desc: Protective glasses that can switch between HUD and flash protection modes.
 req_titles: Security Officer, Warden, Head of Security
 }
+{
+ckey: misiek1001
+character_name: Ashley-047
+item_path: /obj/item/weapon/photo
+item_name: Photo
+item_icon: ashleyphoto
+item_desc: This is a photo showing Ashley and Mizir dancing together.
+}
