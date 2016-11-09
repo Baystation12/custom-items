@@ -512,14 +512,6 @@ item_icon: vox-broken
 item_desc: An old, broken alien helmet of some type. A thick gash marks the surface and it smells like a foot.
 }
 {
-ckey: noblecaos
-character_name: Mikam Ja'hmka
-item_path: /obj/item/device/radio/headset/headset_sci
-item_name: shipboard systems operator headset
-item_icon: bowman_headset
-item_desc: A stylish bowman headset with the name "Mikam" carved in to the bow.
-}
-{
 ckey: gavinator9
 character_name: Scrakikret
 item_path: /obj/item/clothing/suit
