@@ -562,9 +562,9 @@ item_desc: You can see Yuri Kornienkovich on the photo. They are hugging Cienea.
 {
 ckey: brosephstylin
 character_name: Jasper Dupont
-item_path: /obj/item/clothing/glasses/sunglasses/sechud/toggle
+item_path: /obj/item/clothing/glasses/sunglasses/sechud
 item_name: protective eyewear
-item_icon: glasses_hud
+item_icon: glasses_hud_flash
 item_desc: Protective glasses that can switch between HUD and flash protection modes.
 req_titles: Security Officer, Warden, Head of Security
 }
