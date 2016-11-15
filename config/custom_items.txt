@@ -469,7 +469,6 @@ item_icon: emgee_glasses
 item_desc: "A pair of stylish(?) prescription eyeglasses with a brown frame and silver rim from the Xa'lai Eyewear collection. These ones seem to have photochromic lenses that darken when they are exposed to a bright light."
 req_titles: Captain, Head of Personnel, Head of Security, Internal Affairs
 }
-
 {
 ckey: nerezza
 character_name: Kahra Haytam
@@ -583,4 +582,14 @@ item_path: /obj/item/trash
 item_name: souvenir thunderdome coin
 item_icon: coin_trophy
 item_desc: A grey coin with a sentence engraved that says, "Thunderdome Galactic cup 2558"
+}
+{
+ckey: noblecaos
+character_name: Duncan McGhul
+item_path: /obj/item/device/kit/suit
+item_name: blast miner suit customisation kit
+item_desc: A customisation kit with all the parts needed to convert a suit.
+kit_name: blast suit conversion kit
+kit_desc: A reinforced, pressurized bombsuit with with a bright orange hardhat, with a metal plated blastshield. The bombsuit has several patches with pictures on it, most depicting explosion warnings.
+kit_icon: blast
 }
