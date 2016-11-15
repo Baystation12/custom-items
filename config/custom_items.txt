@@ -584,6 +584,7 @@ item_name: souvenir thunderdome coin
 item_icon: coin_trophy
 item_desc: A grey coin with a sentence engraved that says, "Thunderdome Galactic cup 2558"
 }
+{
 ckey: noblecaos
 character_name: Duncan McGhul
 item_path: /obj/item/device/kit/suit
