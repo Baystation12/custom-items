@@ -584,3 +584,13 @@ item_name: souvenir thunderdome coin
 item_icon: coin_trophy
 item_desc: A grey coin with a sentence engraved that says, "Thunderdome Galactic cup 2558"
 }
+ckey: noblecaos
+character_name: Duncan McGhul
+item_path: /obj/item/device/kit/suit
+item_name: blast miner suit customisation kit
+item_desc: A customisation kit with all the parts needed to convert a suit.
+kit_name: blast
+kit_desc: A reinforced, pressurized bombsuit with with a bright orange hardhat, with a metal plated blastshield. The bombsuit has several patches with pictures on it, most depicting explosion warnings.
+kit_icon_suit: blast_suit
+kit_icon_helmet: blast_helmet
+}
