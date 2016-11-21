@@ -354,7 +354,7 @@ item_desc: A silver, heart-shaped locket. It flips open to reveal two pictures, 
 {
 ckey: derpislav
 character_name: Kalta Legates
-item_path: /obj/item/clothing/gloves/grey
+item_path: /obj/item/clothing/gloves/color
 item_name: Padded Glove
 item_icon: kaltaglove
 item_desc: A very tight elbow-long left glove, fitted with various inserts and rigid plating. Paired with a standard right glove. Proudly bears the letters "NT".
@@ -363,7 +363,7 @@ item_desc: A very tight elbow-long left glove, fitted with various inserts and r
 {
 ckey: mewth
 character_name: Aliq Ma'sari-Dar
-item_path: /obj/item/clothing/gloves/brown
+item_path: /obj/item/clothing/gloves/color
 item_name: Worn Leather Gloves
 item_icon: aliqgloves
 item_desc: A pair of worn, leather gloves. They seem to be fit for clawed species. They have a tag on the inside with "Aliq" written on them.
