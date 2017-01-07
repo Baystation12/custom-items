@@ -229,14 +229,6 @@ item_icon: david_fanning_1
 item_path: /obj/item
 }
 {
-ckey: tudoreleuu
-character_name: Emilia Scott
-item_name: customized pAI unit
-item_desc: It seems to be a pAI unit, albeit in a different shell. It acts exactly like the normal one.
-item_icon: customized_pai
-item_path: /obj/item/device/paicard
-}
-{
 ckey: von2531
 character_name: Jack Washington
 item_name: colonial marine beret
