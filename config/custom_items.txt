@@ -585,3 +585,11 @@ kit_name: blast suit
 kit_desc: A reinforced, pressurized bombsuit with with a bright orange hardhat, with a metal plated blastshield. The bombsuit has several patches with pictures on it, most depicting explosion warnings.
 kit_icon: blast
 }
+{
+ckey: tudoreleuu
+character_name: Emilia Scotts
+item_path: /obj/item/weapon/clipboard
+item_name: Clipboard folder
+item_icon: scottsfolder
+item_desc: A neat cross between a folder and a clipboard. It's made out of hard, very lightly textured plastic. There are little colored tabs jutting out, and various personal files inside. On the spine label, written neatly in red ink, is the owner's name - Emilia Scotts.
+}
