@@ -586,7 +586,7 @@ kit_desc: A reinforced, pressurized bombsuit with with a bright orange hardhat, 
 kit_icon: blast
 }
 {
-ckey: 50_n00b
+ckey: 50n00b
 character_name: O-R.Y.I.A.N. 
 item_path: /obj/item/clothing/suit/storage/mbill
 item_name: Brown Jacket
