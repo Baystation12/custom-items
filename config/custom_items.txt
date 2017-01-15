@@ -585,3 +585,11 @@ kit_name: blast suit
 kit_desc: A reinforced, pressurized bombsuit with with a bright orange hardhat, with a metal plated blastshield. The bombsuit has several patches with pictures on it, most depicting explosion warnings.
 kit_icon: blast
 }
+{
+ckey: 50_n00b
+character_name: O-R.Y.I.A.N. 
+item_path: /obj/item/clothing/suit/storage/mbill
+item_name: Brown Jacket
+item_icon: onionJacket
+item_desc: A brownish jacket, it could have been orange a long time ago. A yellow stripe runs across the back, "Enigma" embroidered into it.
+}
