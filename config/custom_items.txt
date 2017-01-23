@@ -584,7 +584,7 @@ item_icon: scottsfolder
 item_desc: A neat cross between a folder and a clipboard. It's made out of hard, very lightly textured plastic. There are little colored tabs jutting out, and various personal files inside. On the spine label, written neatly in red ink, is the owner's name - Emilia Scotts.
 }
 {
-ckey: wnFess
+ckey: wnfess
 character_name: Brendan Moon
 item_path: /obj/item/weapon/storage/backpack/dufflebag
 item_name: Excavation Dufflebag
