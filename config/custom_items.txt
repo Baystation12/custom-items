@@ -589,5 +589,5 @@ character_name: Brendan Moon
 item_path: /obj/item/weapon/storage/backpack/dufflebag
 item_name: Excavation Dufflebag
 item_icon: duffle_exc
-item_desc: Yellow duffelbag with several black stripes on it as well as a warning sign."B.Moon" is sewn into the fabric just below the sign.
+item_desc: Yellow duffelbag with several black stripes on it as well as a warning sign. "B. Moon" is sewn into the fabric just below the sign.
 }
