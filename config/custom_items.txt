@@ -590,3 +590,11 @@ item_name: Excavation Dufflebag
 item_icon: duffle_exc
 item_desc: Yellow duffelbag with several black stripes on it as well as a warning sign. "B. Moon" is sewn into the fabric just below the sign.
 }
+{
+ckey: 50n00b
+character_name: O-R.Y.I.A.N. 
+item_path: /obj/item/clothing/suit/storage/mbill
+item_name: Brown Jacket
+item_icon: onionJacket
+item_desc: A brownish jacket, it could have been orange a long time ago. A yellow stripe runs across the back, "Enigma" embroidered into it.
+}
