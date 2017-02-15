@@ -599,7 +599,7 @@ item_icon: onionJacket
 item_desc: A brownish jacket, it could have been orange a long time ago. A yellow stripe runs across the back, "Enigma" embroidered into it.
 }
 {
-ckey: Redstryker
+ckey: redstryker
 character_name: John MacNamarra
 item_path: /obj/item/weapon/folder/blue
 item_name: MacNamarra family bible
