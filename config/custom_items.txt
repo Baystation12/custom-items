@@ -600,9 +600,9 @@ item_desc: A brownish jacket, it could have been orange a long time ago. A yello
 }
 {
 ckey: Redstryker
-character_name: John MacNamara
+character_name: John MacNamarra
 item_path: /obj/item/weapon/folder/blue
-item_name: MacNamara family bible
+item_name: MacNamarra family bible
 item_icon: macnamara_bible
 item_desc: An old Bible bound in white leather. On the cover of the book is a green Celtic cross, edged in gold. At the centre of the cross lies a coat of arms, depicting a white lion on a red shield, surmounted by a bascinet with red feathers. Its pages are yellowed and beginning to fray.
 }
