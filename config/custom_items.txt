@@ -606,3 +606,11 @@ item_name: MacNamarra family bible
 item_icon: macnamara_bible
 item_desc: An old Bible bound in white leather. On the cover of the book is a green Celtic cross, edged in gold. At the centre of the cross lies a coat of arms, depicting a white lion on a red shield, surmounted by a bascinet with red feathers. Its pages are yellowed and beginning to fray.
 }
+{
+ckey: sabirm
+character_name: Leila Lisvane
+item_path: /obj/item/clothing/accessory/locket
+item_name: gold locket
+item_icon: leilalocket
+item_desc: A golden locket with an emerald set in its cover. Inside is a lock of brown hair, secured firmly by two wide clips; one engraved MI, and the other LL. A lozenge-shaped piece depicting a crescent moon on the night sky is enamelled on the back.
+}
