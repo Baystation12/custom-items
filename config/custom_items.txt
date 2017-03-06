@@ -617,7 +617,7 @@ item_desc: A golden locket with an emerald set in its cover. Inside is a lock of
 {
 ckey: thegreywolf
 character_name: Tasimi
-item_path: /obj/item/device/suit_cooling_unit
+item_path: /obj/item/weapon/storage/backpack
 item_name: Small exoskeleton
 item_icon: exoskeleton
 item_desc: A small exoskeleton sized for a Resomi, on the back there is a power unit. it has struts that are able to attach to arms, legs and a tail.
