@@ -630,3 +630,11 @@ item_name: Retinal Health Scanner
 item_icon: vichud
 item_desc: A small medical scanner similar to the one used in medical HUDs. This one has been designed to connect to and display the information directly on the wearer's implanted retinal overlay. The device includes a simple projector for displaying the data for users with unaugmented eyes.
 }
+{
+ckey: your_neighbor_dave
+character_name: Dayton Cosgrove
+item_path: /obj/item/weapon/photo
+item_name: small photograph
+item_icon: dayphoto
+item_desc: A photograph smaller than usual, the perfect size to fit in a locket. Looking at the picture closely, you can see two cybernetic humans sitting on a sofa made of blue cloth with a plain gray wall and a light fixture behind them. The one on the left appears to have a NanoTrasen full-body prosthetic with vibrant, red eyes. The other figure has a Xion chassis with glowing white eyes which seem to have raised eye-shutters. The one on the right has his arm laid around the other's shoulders and both are leaning close to each other.
+}
