@@ -486,7 +486,7 @@ item_desc: A suit that protects against minor chemical spills. Has a black strip
 {
 ckey: gavinator9
 character_name: Scrakikret
-item_path: /obj/item/clothing/head
+item_path: /obj/item/clothing/head/helmet/space/vox
 item_name: Broken Visor
 item_icon: vox-broken
 item_desc: An old, broken alien helmet of some type. A thick gash marks the surface and it smells like a foot.
@@ -494,7 +494,7 @@ item_desc: An old, broken alien helmet of some type. A thick gash marks the surf
 {
 ckey: gavinator9
 character_name: Scrakikret
-item_path: /obj/item/clothing/suit
+item_path: /obj/item/clothing/suit/space/vox
 item_name: Tattered Armor
 item_icon: vox-scrakipace
 item_desc: A Tattered mess of some plating. It looks far too broken to actually protect you, and it smells far too bad to actually interest you.
