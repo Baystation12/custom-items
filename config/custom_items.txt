@@ -540,15 +540,6 @@ item_icon: yurisphoto
 item_desc: You can see Yuri Kornienkovich on the photo. They are hugging Cienea.
 }
 {
-ckey: brosephstylin
-character_name: Jasper Dupont
-item_path: /obj/item/clothing/glasses/sunglasses/sechud
-item_name: protective eyewear
-item_icon: glasses_hud_flash
-item_desc: Protective glasses that can switch between HUD and flash protection modes.
-req_titles: Security Officer, Warden, Head of Security
-}
-{
 ckey: misiek1001
 character_name: Ashley-047
 item_path: /obj/item/weapon/photo
@@ -637,4 +628,12 @@ item_path: /obj/item/weapon/photo
 item_name: small photograph
 item_icon: dayphoto
 item_desc: A photograph smaller than usual, the perfect size to fit in a locket. Looking at the picture closely, you can see two cybernetic humans sitting on a sofa made of blue cloth with a plain gray wall and a light fixture behind them. The one on the left appears to have a NanoTrasen full-body prosthetic with vibrant, red eyes. The other figure has a Xion chassis with glowing white eyes which seem to have raised eye-shutters. The one on the right has his arm laid around the other's shoulders and both are leaning close to each other.
+}
+{
+ckey: acemclazer
+character_name: Abigail Arrow
+item_path: /obj/item/clothing/suit/storage/toggle/bomber
+item_name: Solgov Flight Jacket
+item_icon: arrow_bomber_open
+item_desc: A black leather jacket with a pilot logo on the front and a grand SolGov Logo embroidered on its back. Inside are stitched the initials "AJA".
 }
