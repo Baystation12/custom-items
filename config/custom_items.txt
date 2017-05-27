@@ -637,3 +637,13 @@ item_name: Solgov Flight Jacket
 item_icon: arrow_bomber_open
 item_desc: A black leather jacket with a pilot logo on the front and a grand SolGov Logo embroidered on its back. Inside are stitched the initials "AJA".
 }
+{
+ckey: misiek1001
+character_name: Nathaniel Keller
+item_path: /obj/item/device/kit/suit
+item_name: PILO-T Mining Voidsuit Conversion Kit
+item_desc: It's a conversion kit containing everything to modify a voidsuit to into a PILO-T Mining Voidsuit
+kit_name: PILO-T
+kit_desc: A sleek, dark-coloured voidsuit with orange accents. Though it's clearly intended for use by shaft miners, the tightness of it all makes it appear to be a viable flight suit as well.
+kit_icon: PILO-T
+}
