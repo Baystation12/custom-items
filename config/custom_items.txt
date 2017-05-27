@@ -647,3 +647,13 @@ kit_name: PILO-T
 kit_desc: A sleek, dark-coloured voidsuit with orange accents. Though it's clearly intended for use by shaft miners, the tightness of it all makes it appear to be a viable flight suit as well.
 kit_icon: PILO-T
 }
+{
+ckey: tlc2013
+character_name: Charlotte Kieran
+item_path: /obj/item/weapon/material/kitchen/utensil/knife/boot
+item_name: old switchblade
+item_icon: oldswitchblade
+item_desc: An old, rusty switchblade with a custom handle. There are dark splotches in the leather, as if it's been used before...
+req_titles: Scientist, Xenobiologist, Off-Duty, Passenger, Senior Researcher
+req_access: 1
+}
