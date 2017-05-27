@@ -654,6 +654,4 @@ item_path: /obj/item/weapon/material/kitchen/utensil/knife/boot
 item_name: old switchblade
 item_icon: oldswitchblade
 item_desc: An old, rusty switchblade with a custom handle. There are dark splotches in the leather, as if it's been used before...
-req_titles: Scientist, Xenobiologist, Off-Duty, Passenger, Senior Researcher
-req_access: 1
 }
