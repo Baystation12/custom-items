@@ -655,3 +655,12 @@ item_name: old switchblade
 item_icon: oldswitchblade
 item_desc: An old, rusty switchblade with a custom handle. There are dark splotches in the leather, as if it's been used before...
 }
+
+{
+ckey: crushtoe
+character_name: Allen Fields
+item_path: /obj/item/weapon/photo
+item_name: crew photo
+item_icon: fieldsphoto
+item_desc: An old photograph of a group seemingly squashed together to fit. A few names are scratched on the back along with the name "SEV Junket".
+}
