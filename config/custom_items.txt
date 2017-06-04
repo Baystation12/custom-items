@@ -664,3 +664,11 @@ item_name: crew photo
 item_icon: fieldsphoto
 item_desc: An old photograph of a group seemingly squashed together to fit. A few names are scratched on the back along with the name "SEV Junket".
 }
+{
+ckey: nyvrem
+character_name: Maddison Wolff
+item_path: /obj/item/weapon/photo
+item_name: family photo
+item_icon: michaelwolff
+item_desc: A small photo made to fit a locket. Looking at the picture closely, you can see a blonde man with green eyes sitting in a chair that may be synthleather. He is wearing an expensive suit and has a baby in his lap. The baby also has green eyes and seems to be vat-grown. The man is smiling.
+}
