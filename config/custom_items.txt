@@ -664,3 +664,12 @@ item_name: crew photo
 item_icon: fieldsphoto
 item_desc: An old photograph of a group seemingly squashed together to fit. A few names are scratched on the back along with the name "SEV Junket".
 }
+
+{
+ckey: zerobits
+character_name: Zachary Porter
+item_path: /obj/item/weapon/photo
+item_name: SCG Work Visa
+item_icon: zachvisa
+item_desc: A slightly worn work visa which permits its owner to enter SCG space for work purposes. This one is owned by Zachary Porter, and expires in 2571. The card details that the owner originates from the Gilgamesh system in the Terran Confederacy.
+}
