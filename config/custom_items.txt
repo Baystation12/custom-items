@@ -681,3 +681,12 @@ item_name: SCG Work Visa
 item_icon: zachvisa
 item_desc: A slightly worn work visa which permits its owner to enter SCG space for work purposes. This one is owned by Zachary Porter, and expires in 2571. The card details that the owner originates from the Gilgamesh system in the Terran Confederacy.
 }
+
+{
+ckey: zerobits
+character_name: Zachary Porter
+item_path: /obj/item/weapon/storage/bible
+item_name: Old Bible
+item_icon: zachbible
+item_desc: A heavily worn leather-bound bible bearing a suppedaneum cross in a gold color, the edges of its pages bear a gold-like sheen. The inside of the front cover has the name 'Sandra Danilov' written roughly in ink, as well as text showing that it was printed in 2516.
+}
