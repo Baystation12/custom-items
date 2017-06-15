@@ -690,3 +690,12 @@ item_name: Old Bible
 item_icon: zachbible
 item_desc: A heavily worn leather-bound bible bearing a suppedaneum cross in a gold color, the edges of its pages bear a gold-like sheen. The inside of the front cover has the name 'Sandra Danilov' written roughly in ink, as well as text showing that it was printed in 2516.
 }
+
+{
+ckey: maplenut
+character_name: Jakob Hardy
+item_path: /obj/item/clothing/accessory/badge/tags
+item_name: worn dog tags
+item_icon: hardytags
+item_desc: A pair of war torn dog tags. The only readable information is that it belongs to John Hardy.
+}
