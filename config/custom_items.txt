@@ -699,3 +699,12 @@ item_name: worn dog tags
 item_icon: hardytags
 item_desc: A pair of war torn dog tags. The only readable information is that it belongs to John Hardy.
 }
+
+{
+ckey: serveris6
+character_name: Tyrone Keener
+item_path: /obj/item/clothing/suit/storage/service/expeditionary
+item_name: bridge coat (O-6 captain)
+item_icon: bridge_coat
+item_desc: An expeditionary corps bridge pea coat, stylized in golden cuffs and eight buttons down the front in a fetching black, with shoulderboards denoting an expeditionary corps captain. The entire article is made of a dark, luxurious wool. It carries a small amount of ash around the collar.
+}
