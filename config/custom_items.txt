@@ -699,3 +699,12 @@ item_name: bridge coat (O-6 captain)
 item_icon: bridge_coat
 item_desc: An expeditionary corps bridge pea coat, stylized in golden cuffs and eight buttons down the front in a fetching black, with shoulderboards denoting an expeditionary corps captain. The entire article is made of a dark, luxurious wool. It carries a small amount of ash around the collar.
 }
+
+{
+ckey: tlc2013
+character_name: Kyra
+item_path: /obj/item/clothing/under/waiter
+item_name: caretaker's dress
+item_icon: kyra_dress
+item_desc: A well-worn uniform, likely for a waitress or some other form of caretaker. The undershirt is dotted with bright pink stains, and one of its sleeves has been ripped.
+}
