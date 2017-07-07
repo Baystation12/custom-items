@@ -708,3 +708,12 @@ item_name: caretaker's dress
 item_icon: kyra_dress
 item_desc: A well-worn uniform, likely for a waitress or some other form of caretaker. The undershirt is dotted with bright pink stains, and one of its sleeves has been ripped.
 }
+
+{
+ckey: crimsonshrike
+character_name: Guzman Mendoza
+item_path: /obj/item/device/taperecorder
+item_name: damaged recorder
+item_icon: redrecorder_empty
+item_desc: A crimson recorder bearing the crest of SolGov. It's dented and cracked in places.
+}
