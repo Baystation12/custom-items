@@ -714,6 +714,6 @@ ckey: crimsonshrike
 character_name: Guzman Mendoza
 item_path: /obj/item/device/taperecorder
 item_name: damaged recorder
-item_icon: redrecorder_empty
+item_icon: redrecorder
 item_desc: A crimson recorder bearing the crest of SolGov. It's dented and cracked in places.
 }
