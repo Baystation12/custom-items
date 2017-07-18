@@ -717,3 +717,12 @@ item_name: damaged recorder
 item_icon: redrecorder
 item_desc: A crimson recorder bearing the crest of SolGov. It's dented and cracked in places.
 }
+
+{
+ckey: yorshrun
+character_name: Norman
+item_path: /obj/item/clothing/head/soft
+item_name: torn cap
+item_icon: normancap
+item_desc: A raggedy and faded red hat. It has quite a few small holes in it.
+}
