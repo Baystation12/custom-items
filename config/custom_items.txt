@@ -726,3 +726,12 @@ item_name: torn cap
 item_icon: normancap
 item_desc: A raggedy and faded red hat. It has quite a few small holes in it.
 }
+
+{
+ckey: mrbarman
+character_name: Kert Jonson
+item_path: /obj/item/weapon/photo
+item_name: Kert Jonson's Law Degree
+item_icon: lawdegree
+item_desc: A seemingly normal stamped Law Degree.
+}
