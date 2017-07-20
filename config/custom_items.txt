@@ -717,3 +717,12 @@ item_name: damaged recorder
 item_icon: redrecorder
 item_desc: A crimson recorder bearing the crest of SolGov. It's dented and cracked in places.
 }
+
+{
+ckey: mrbarman
+character_name: Kert Jonson
+item_path: /obj/item/weapon/photo
+item_name: Kert Jonson's Law Degree
+item_icon: lawdegree
+item_desc: A seemingly normal stamped Law Degree.
+}
