@@ -719,15 +719,6 @@ item_desc: A crimson recorder bearing the crest of SolGov. It's dented and crack
 }
 
 {
-<<<<<<< HEAD
-ckey: mrbarman
-character_name: Kert Jonson
-item_path: /obj/item/weapon/photo
-item_name: Kert Jonson's Law Degree
-item_icon: lawdegree
-item_desc: A seemingly normal stamped Law Degree.
-}
-=======
 ckey: yorshrun
 character_name: Norman
 item_path: /obj/item/clothing/head/soft
@@ -735,4 +726,12 @@ item_name: torn cap
 item_icon: normancap
 item_desc: A raggedy and faded red hat. It has quite a few small holes in it.
 }
->>>>>>> 953a398cbe5fa307c9a8f0352f38de82fb0f5a4a
+
+{
+ckey: mrbarman
+character_name: Kert Jonson
+item_path: /obj/item/weapon/photo
+item_name: Kert Jonson's Law Degree
+item_icon: lawdegree
+item_desc: A seemingly normal stamped Law Degree.
+}
