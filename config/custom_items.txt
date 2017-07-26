@@ -720,7 +720,7 @@ item_desc: A seemingly normal stamped Law Degree.
 }
 {
 ckey: misiek1001
-character_name: Keaton Gensaii
+character_name: Keaton Gensai
 item_path: /obj/item/clothing/accessory/medal
 item_name: Diamond Insignia
 item_icon: diamondbadge
