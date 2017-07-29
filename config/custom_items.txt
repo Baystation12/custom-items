@@ -597,14 +597,6 @@ item_icon: leilalocket
 item_desc: A golden locket with an emerald set in its cover. Inside is a lock of brown hair, secured firmly by two wide clips; one engraved MI, and the other LL. A lozenge-shaped piece depicting a crescent moon on the night sky is enamelled on the back.
 }
 {
-ckey: thegreywolf
-character_name: Tasimi
-item_path: /obj/item/weapon/storage/backpack
-item_name: Small exoskeleton
-item_icon: exoskeleton
-item_desc: A small exoskeleton sized for a Resomi, on the back there is a power unit. it has struts that are able to attach to arms, legs and a tail.
-}
-{
 ckey: ithalan
 character_name: Victoria Hall
 item_path: /obj/item/clothing/glasses/hud/health
@@ -638,15 +630,6 @@ kit_name: PILO-T
 kit_desc: A sleek, dark-coloured voidsuit with orange accents. Though it's clearly intended for use by shaft miners, the tightness of it all makes it appear to be a viable flight suit as well.
 kit_icon: PILO-T
 }
-{
-ckey: tlc2013
-character_name: Charlotte Kieran
-item_path: /obj/item/weapon/material/kitchen/utensil/knife/boot
-item_name: old switchblade
-item_icon: oldswitchblade
-item_desc: An old, rusty switchblade with a custom handle. There are dark splotches in the leather, as if it's been used before...
-}
-
 {
 ckey: crushtoe
 character_name: Allen Fields
@@ -734,4 +717,12 @@ item_path: /obj/item/weapon/photo
 item_name: Kert Jonson's Law Degree
 item_icon: lawdegree
 item_desc: A seemingly normal stamped Law Degree.
+}
+{
+ckey: misiek1001
+character_name: Keaton Gensai
+item_path: /obj/item/clothing/accessory/medal
+item_name: Diamond Insignia
+item_icon: diamondbadge
+item_desc: An insignia of ''The Diamonds'', displaying one such diamond over a shield. It appears to lay above a yellow banner displaying the name. It looks like it's intended to be worn on the sleeve of a set of fatigues.
 }
