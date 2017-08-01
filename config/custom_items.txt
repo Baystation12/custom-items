@@ -726,3 +726,21 @@ item_name: Diamond Insignia
 item_icon: diamondbadge
 item_desc: An insignia of ''The Diamonds'', displaying one such diamond over a shield. It appears to lay above a yellow banner displaying the name. It looks like it's intended to be worn on the sleeve of a set of fatigues.
 }
+
+{
+ckey: paradoxspace
+character_name: Oliver Magent
+item_path: /obj/item/clothing/head/beret
+item_name: Crown of Magent
+item_icon: olivercrown
+item_desc: A heavy, silver coronet inlaid with sparkling ruby gems. It looks recently polished.
+}
+
+{
+ckey: paradoxspace
+character_name: Oliver Magent
+item_path: /obj/item/clothing/suit/storage/hooded/wintercoat
+item_name: Royal Cloak
+item_icon: olivercloak
+item_desc: A thick, red, 'synthfur' hooded cloak. It looks to be insulated enough for a cold day on Yuclite.
+}
