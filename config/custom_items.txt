@@ -744,3 +744,12 @@ item_name: Royal Cloak
 item_icon: olivercloak
 item_desc: A thick, red, 'synthfur' hooded cloak. It looks to be insulated enough for a cold day on Yuclite.
 }
+
+{
+ckey: novusluna
+character_name: Cassius Ra'anihm
+item_path: /obj/item/weapon/flame/lighter/zippo
+item_name: Runic Lighter
+item_icon: cassius_zippo
+item_desc: "A silver-trimmed golden lighter with a spring-system cover engraved with purple runes."
+}
