@@ -15,7 +15,7 @@
   }
   ````
 
-  - ckey should be your key with no spaces, all in lowercase. 
+  - ckey should be your key with no spaces or underscores, all in lowercase. 
   - character_name is the exact name you will use for the character the item belongs to.
   - item_name is the object name that will be used when spawned.
   - item_path is the object type the item is based on.
@@ -72,7 +72,7 @@
   ckey:ai_name:icon_state
   ````
 
-  - ckey should be your key with no spaces, all in lowercase. 
+  - ckey should be your key with no spaces or underscores, all in lowercase. 
   - ai_name is the exact name you will use for the AI the display belongs to.
   - icon_state is the name of your AI icon states without the "-ai" or "-ai-crashed" suffixes. Defaults to the ckey value if unset.
   
