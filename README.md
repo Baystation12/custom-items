@@ -1,4 +1,4 @@
-###How to add a custom item
+## How to add a custom item
 
 1. Add a config entry to custom_items.txt. Example:
 
@@ -61,7 +61,7 @@
 
 10. You're done. Compile, test, and discover you misspelled a state, etc.
 
-###How to add a custom AI display
+## How to add a custom AI display
 
 1. Add a config entry to custom_sprites.txt. Either:
   ````
@@ -82,13 +82,13 @@
   ckey:ai_name:custom_icon_2
   ````
 
-2. Add two icons to icons//custom_synthetic.dmi named {icon_state}-ai and {icon_state}-ai-crash, replacing {icon_state} with the icon_state value you've selected.
+2. Add the first or both of the following icon states to icons/custom_synthetic.dmi named {icon_state}-ai and {icon_state}-ai-crash (the ai-crash icon state is optional), replacing {icon_state} with the icon_state value you've selected.
   ````
-  ckey_example:ExampleAI
+  ckey_example:ExampleAIName
   ````
-  The example above would two require icon states named "ckey_example-ai" and "ckey_example-ai-crash".
+  With the example above the resulting icon state names would be "ckey_example-ai" (required) and "ckey_example-ai-crash" (optional).
   
   ````
-  ckey_example:ExampleAI:example_icon_state
+  ckey_example:ExampleAIName:example_icon_state
   ````
-  The example above would two require icon states named "example_icon_state-ai" and "example_icon_state-ai-crash".
+  With the example above the resulting icon state names would be "example_icon_state-ai" (required) and "example_icon_state-ai-crash" (optional).
