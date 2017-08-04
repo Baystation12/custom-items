@@ -60,3 +60,35 @@
 9. Add a final two icons to icons/mob/custom_items.dmi under kit_icon_suit and kit_icon_helmet for the on-mob icons.
 
 10. You're done. Compile, test, and discover you misspelled a state, etc.
+
+###How to add a custom AI display
+
+1. Add a config entry to custom_sprites.txt. Either:
+  ````
+  ckey:ai_name
+  ````
+  or
+  ````
+  ckey:ai_name:icon_state
+  ````
+
+  - ckey should be your key with no spaces, all in lowercase. 
+  - ai_name is the exact name you will use for the AI the display belongs to.
+  - icon_state is the name of your AI icon states without the "-ai" or "-ai-crashed" suffixes. Defaults to the ckey value if unset.
+  
+  Multiple entries per player is possible, as long as the icon_state value is set and unique, i.e.:
+  ````
+  ckey:ai_name:custom_icon_1
+  ckey:ai_name:custom_icon_2
+  ````
+
+2. Add two icons to icons//custom_synthetic.dmi named {icon_state}-ai and {icon_state}-ai-crash, replacing {icon_state} with the icon_state value you've selected.
+  ````
+  ckey_example:ExampleAI
+  ````
+  The example above would two require icon states named "ckey_example-ai" and "ckey_example-ai-crash".
+  
+  ````
+  ckey_example:ExampleAI:example_icon_state
+  ````
+  The example above would two require icon states named "example_icon_state-ai" and "example_icon_state-ai-crash".
