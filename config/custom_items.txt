@@ -753,3 +753,12 @@ item_name: Runic Lighter
 item_icon: cassius_zippo
 item_desc: "A silver-trimmed golden lighter with a spring-system cover engraved with purple runes."
 }
+
+{
+ckey: paradoxon
+character_name: Qokkri Xilo
+item_name: Headtail jewelry
+item_desc: An ensemble of sophisticated jewels and bands fir for a Skrell's headtails.
+item_icon: xilobeads
+item_path: /obj/item/clothing/ears/skrell
+}
