@@ -762,3 +762,11 @@ item_desc: An ensemble of sophisticated jewels and bands fir for a Skrell's head
 item_icon: xilobeads
 item_path: /obj/item/clothing/ears/skrell
 }
+{
+ckey: RyverStyx
+character_name: Hakam Singh
+item_path: /obj/item/weapon/material/knife
+item_name: Kirpan
+item_icon: Singh_Kirpan
+item_desc: A traditional iron dagger worn by baptized Sikh.
+}
