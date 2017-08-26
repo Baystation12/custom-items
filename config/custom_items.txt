@@ -763,7 +763,7 @@ item_icon: xilobeads
 item_path: /obj/item/clothing/ears/skrell
 }
 {
-ckey: RyverStyx
+ckey: ryverstyx
 character_name: Hakam Singh
 item_path: /obj/item/weapon/material/knife
 item_name: Kirpan
