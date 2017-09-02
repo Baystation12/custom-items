@@ -762,3 +762,12 @@ item_desc: An ensemble of sophisticated jewels and bands fir for a Skrell's head
 item_icon: xilobeads
 item_path: /obj/item/clothing/ears/skrell
 }
+
+{
+ckey: huntime
+character_name: Calista Monroe
+item_path: /obj/item/clothing/accessory/storage/white_vest
+item_name: White bandolier
+item_icon: cali_bandolier     
+item_desc: A modified bandolier, attached are three brightly coloured pouches and a side bag for storing medical supplies. Embroidered on the side are the initals CM.
+}
