@@ -779,3 +779,14 @@ item_name: White bandolier
 item_icon: cali_bandolier     
 item_desc: A modified bandolier, attached are three brightly coloured pouches and a side bag for storing medical supplies. Embroidered on the side are the initals CM.
 }
+
+{
+ckey: maveriknight
+character_name: Kristen Osterweis
+item_path: /obj/item/device/camera
+item_name: Old Camera
+item_icon: osterweis_oldcamera
+item_desc: An old Ward-Takahashi brand personal camera, with a built-in photo developer. Its edges look worn from use. The silver paint on the bottom has been worn away to reveal simple grey plastic beneath, but it looks like the camera still works.
+req_titles: Passenger
+}
+
