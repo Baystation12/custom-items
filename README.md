@@ -92,3 +92,12 @@
   ckey_example:ExampleAIName:example_icon_state
   ````
   With the example above the resulting icon state names would be "example_icon_state-ai" (required) and "example_icon_state-ai-crash" (optional).
+
+## How to locally test a custom item
+
+1. Move to your main repo folder and move custom_items.txt from config/example to config/
+2. Open custom_items.txt and enter the define information you'll be pushing to the custom-items repo
+3. Change ckey in the definition to YOUR CKEY. Change name to a character name you will be using for testing, or just use their name.
+4. Add the relevant icons to the relevant files in your main repo folder
+5. Compile and run the game. If you did it all correctly, you will have spawned the custom item. If not, it should hopefully give you an error message that can point you in the right direction. 
+6. Once you're done testing, make sure you revert any changes made in your main repo folder. Do not push custom items related things to the main repo!
