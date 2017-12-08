@@ -780,3 +780,15 @@ item_name: old camera
 item_icon: osterweis_oldcamera
 item_desc: An old Ward-Takahashi brand personal camera, with a built-in photo developer. Its edges look worn from use. The silver paint on the bottom has been worn away to reveal simple grey plastic beneath, but it looks like the camera still works.
 }
+{
+
+ckey: zerobits
+
+character_name: Zachary Porter
+
+item_path: /obj/item/clothing/accessory/necklace
+item_name: suppedaneum crucifix
+item_icon: zachcrucifix
+
+item_desc: A silvery necklace with a simple Orthodox cross suspended from it.
+}
