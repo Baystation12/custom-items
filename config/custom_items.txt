@@ -792,3 +792,14 @@ item_icon: zachcrucifix
 
 item_desc: A silvery necklace with a simple Orthodox cross suspended from it.
 }
+{
+ckey: 5crownik007
+
+character_name: Leslie Souhan
+
+item_path: /obj/item/clothing/under/color/brown
+item_name: Spacer Jumpsuit
+item_icon: spacer
+
+item_desc: A rear-entry sandy coloured jumpsuit with many pockets favoured by those who are born, live and work in micro-g environments- spacers as they are often called.
+}
