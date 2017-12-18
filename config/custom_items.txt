@@ -792,3 +792,12 @@ item_icon: zachcrucifix
 
 item_desc: A silvery necklace with a simple Orthodox cross suspended from it.
 }
+
+{
+ckey: devildabeast
+character_name: Amelia Griswold
+item_path: /obj/item/clothing/under/scratch
+item_name: refitted green suit
+item_icon: grav_suit
+item_desc: This business attire looks fitted to Gravworlder proportions.
+}
