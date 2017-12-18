@@ -333,7 +333,6 @@ item_name: exotic shirt
 item_icon: cooper_outfit
 item_desc: A laid-back ancient-earth hawaiian shirt and pants, which have little to do with infinity or jelly donuts.
 }
-
 {
 ckey: sabess
 character_name: Maria Korchnoi
@@ -342,7 +341,6 @@ item_name: Heartshaped Locket
 item_icon: maria_locket
 item_desc: A silver, heart-shaped locket. It flips open to reveal two pictures, one of a young red-headed woman and one of a brunette of similar age. Small writing is etched onto the back, reading 'M+L'. Some may regard it as cheesy.
 }
-
 {
 ckey: derpislav
 character_name: Kalta Legates
@@ -351,7 +349,6 @@ item_name: Padded Glove
 item_icon: kaltaglove
 item_desc: A very tight elbow-long left glove, fitted with various inserts and rigid plating. Paired with a standard right glove. Proudly bears the letters "NT".
 }
-
 {
 ckey: mewth
 character_name: Aliq Ma'sari-Dar
@@ -360,7 +357,6 @@ item_name: Worn Leather Gloves
 item_icon: aliqgloves
 item_desc: A pair of worn, leather gloves. They seem to be fit for clawed species. They have a tag on the inside with "Aliq" written on them.
 }
-
 {
 ckey: shadowofman
 character_name: Daniel Phillips
@@ -369,7 +365,6 @@ item_name: Handheld Communicator
 item_icon: phoneradio
 item_desc: A small handheld communicator, it bears a faded letter "H" on its back. It has two numbered dials on its front below a screen.
 }
-
 {
 ckey: slayerhero90
 character_name: Hyacinthe Bisset
@@ -378,7 +373,6 @@ item_name: Red Flame Dress
 item_icon: redflame
 item_desc: A small black dress with red flames.
 }
-
 {
 ckey: wickedtemp
 character_name: Tempest Huxley
@@ -387,7 +381,6 @@ item_name: Purple MedHUD
 item_icon: huxhud
 item_desc: A heads-up display that scans the humans in view and provides accurate data about their health status. This one has a purple lens, and has "Huxley" engraved on the side in small print.
 }
-
 {
 ckey: linearb
 character_name: Trenton Newbern
@@ -396,7 +389,6 @@ item_name: Mustache Wax
 item_icon: linearbwax
 item_desc: An aluminum tin of mustache wax, decorated with ridiculous handlebar mustache on the top. "Property of Trenton Newbern: DO NOT STEAL!!" is written in small letters on one side.
 }
-
 {
 ckey: foxeye
 character_name: John Saaland
@@ -405,7 +397,6 @@ item_name: GA Jumpsuit
 item_icon: saaland
 item_desc: A tan jumpsuit, robustly constructed, with various velcro strips for name and ranking patches distributed over the torso and shoulders. Only one of these strips is in use, holding a patch with "J. SAALAND" written on it in block lettering over the right breast pocket.
 }
-
 {
 ckey: yoshax
 character_name: Carmine Adams
@@ -414,7 +405,6 @@ item_name: Adams Corporation Scrubs
 item_icon: carmine
 item_desc: A crisp set of black scrubs. A name is embroidered onto the breast, "Dr. C. Adams." Above the name is a logo and the name of organisation, "Adams Corporation".
 }
-
 {
 ckey: yoshax
 character_name: Carmine Adams
@@ -423,7 +413,6 @@ item_name: Adams Corporation Latex Gloves
 item_icon: carminegloves
 item_desc: A pair of black latex gloves.
 }
-
 {
 ckey: yoshax
 character_name: Carmine Adams
@@ -432,7 +421,6 @@ item_name: Carmine's Labcoat
 item_icon: carminecoat_open
 item_desc: A dark black labcoat that appears to be slightly frayed around the edges, the colour seems to be slightly faded. On the breast is a small name-tag, "Carmine Adams - #39".
 }
-
 {
 ckey: emgee
 character_name: Vincent Vargas
@@ -646,8 +634,6 @@ item_name: family photo
 item_icon: michaelwolff
 item_desc: A small photo made to fit a locket. Looking at the picture closely, you can see a blonde man with green eyes sitting in a chair that may be synthleather. He is wearing an expensive suit and has a baby in his lap. The baby also has green eyes and seems to be vat-grown. The man is smiling.
 }
-
-
 {
 ckey: zerobits
 character_name: Zachary Porter
@@ -656,7 +642,6 @@ item_name: Old Bible
 item_icon: zachbible
 item_desc: A heavily worn leather-bound bible bearing a suppedaneum cross in a gold color, the edges of its pages bear a gold-like sheen. The inside of the front cover has the name 'Sandra Danilov' written roughly in ink, as well as text showing that it was printed in 2516.
 }
-
 {
 ckey: maplenut
 character_name: Jakob Hardy
@@ -665,7 +650,6 @@ item_name: worn dog tags
 item_icon: hardytags
 item_desc: A pair of war torn dog tags. The only readable information is that it belongs to John Hardy.
 }
-
 {
 ckey: serveris6
 character_name: Tyrone Keener
@@ -674,7 +658,6 @@ item_name: bridge coat (O-6 captain)
 item_icon: bridge_coat
 item_desc: An expeditionary corps bridge pea coat, stylized in golden cuffs and eight buttons down the front in a fetching black, with shoulderboards denoting an expeditionary corps captain. The entire article is made of a dark, luxurious wool. It carries a small amount of ash around the collar.
 }
-
 {
 ckey: tlc2013
 character_name: Kyra
@@ -683,7 +666,6 @@ item_name: caretaker's dress
 item_icon: kyra_dress
 item_desc: A well-worn uniform, likely for a waitress or some other form of caretaker. The undershirt is dotted with bright pink stains, and one of its sleeves has been ripped.
 }
-
 {
 ckey: crimsonshrike
 character_name: Guzman Mendoza
@@ -692,7 +674,6 @@ item_name: damaged recorder
 item_icon: redrecorder
 item_desc: A crimson recorder bearing the crest of SolGov. It's dented and cracked in places.
 }
-
 {
 ckey: yorshrun
 character_name: Norman
@@ -701,7 +682,6 @@ item_name: torn cap
 item_icon: normancap
 item_desc: A raggedy and faded red hat. It has quite a few small holes in it.
 }
-
 {
 ckey: mrbarman
 character_name: Kert Jonson
@@ -718,7 +698,6 @@ item_name: Diamond Insignia
 item_icon: diamondbadge
 item_desc: An insignia of ''The Diamonds'', displaying one such diamond over a shield. It appears to lay above a yellow banner displaying the name. It looks like it's intended to be worn on the sleeve of a set of fatigues.
 }
-
 {
 ckey: paradoxspace
 character_name: Oliver Magent
@@ -727,7 +706,6 @@ item_name: Crown of Magent
 item_icon: olivercrown
 item_desc: A heavy, silver coronet inlaid with sparkling ruby gems. It looks recently polished.
 }
-
 {
 ckey: paradoxspace
 character_name: Oliver Magent
@@ -736,7 +714,6 @@ item_name: Royal Cloak
 item_icon: olivercloak
 item_desc: A thick, red, 'synthfur' hooded cloak. It looks to be insulated enough for a cold day on Yuclite.
 }
-
 {
 ckey: novusluna
 character_name: Cassius Ra'anihm
@@ -745,7 +722,6 @@ item_name: Runic Lighter
 item_icon: cassius_zippo
 item_desc: "A silver-trimmed golden lighter with a spring-system cover engraved with purple runes."
 }
-
 {
 ckey: paradoxon
 character_name: Qokkri Xilo
@@ -762,7 +738,6 @@ item_name: Kirpan
 item_icon: Singh_Kirpan
 item_desc: A traditional iron dagger worn by baptized Sikh.
 }
-
 {
 ckey: huntime
 character_name: Calista Monroe
@@ -771,7 +746,6 @@ item_name: White bandolier
 item_icon: cali_bandolier     
 item_desc: A modified bandolier, attached are three brightly coloured pouches and a side bag for storing medical supplies. Embroidered on the side are the initals CM.
 }
-
 {
 ckey: maveriknight
 character_name: Kristen Osterweis
@@ -781,18 +755,13 @@ item_icon: osterweis_oldcamera
 item_desc: An old Ward-Takahashi brand personal camera, with a built-in photo developer. Its edges look worn from use. The silver paint on the bottom has been worn away to reveal simple grey plastic beneath, but it looks like the camera still works.
 }
 {
-
 ckey: zerobits
-
 character_name: Zachary Porter
-
 item_path: /obj/item/clothing/accessory/necklace
 item_name: suppedaneum crucifix
 item_icon: zachcrucifix
-
 item_desc: A silvery necklace with a simple Orthodox cross suspended from it.
 }
-
 {
 ckey: devildabeast
 character_name: Amelia Griswold
