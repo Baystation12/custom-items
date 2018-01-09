@@ -660,11 +660,11 @@ item_desc: An expeditionary corps bridge pea coat, stylized in golden cuffs and 
 }
 {
 ckey: tlc2013
-character_name: Kyra
-item_path: /obj/item/clothing/under/waiter
-item_name: caretaker's dress
-item_icon: kyra_dress
-item_desc: A well-worn uniform, likely for a waitress or some other form of caretaker. The undershirt is dotted with bright pink stains, and one of its sleeves has been ripped.
+character_name: Hikari Suzuki
+item_path: /obj/item/clothing/under/dress/plaid_red
+item_name: miko kimono
+item_icon: miko
+item_desc: It's a simple, hand-sewn red-and-white dress, like the clothes of a Japanese shrine maiden. There's a little bow on the front.
 }
 {
 ckey: crimsonshrike
