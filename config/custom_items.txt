@@ -762,3 +762,11 @@ item_name: refitted green suit
 item_icon: grav_suit
 item_desc: This business attire looks fitted to Gravworlder proportions.
 }
+{
+ckey: 5crownik007
+character_name: Leslie Souhan
+item_path: /obj/item/clothing/under
+item_name: Spacer Jumpsuit
+item_icon: spacer
+item_desc: A rear-entry sandy coloured jumpsuit with many pockets favoured by those who are born, live and work in micro-g environments- spacers as they are often called.
+}
