@@ -778,3 +778,11 @@ item_name: elegant blue turban
 item_icon: ele_turban_b
 item_desc: This is a large, elegant turban in the Ottoman fashion with a large blue dyed feather protruding from the top.
 }
+{
+ckey: brosephstylin
+character_name: Adriaan Pienaar
+item_path: /obj/item/clothing/glasses/sunglasses/sechud
+item_name: protective spectacles
+item_icon: pienaar_eyepro
+item_desc: A high quality commercial off-the-shelf protective eyewear. The name "Pienaar" has been written on the frame.
+}
