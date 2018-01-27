@@ -787,7 +787,7 @@ item_icon: pienaar_eyepro
 item_desc: A high quality commercial off-the-shelf protective eyewear. The name "Pienaar" has been written on the frame.
 }
 {
-ckey: tc_one
+ckey: tcone
 character_name: Daniel Snow
 item_path: /obj/item/clothing/ring/material/gold
 item_name: Gold ring
