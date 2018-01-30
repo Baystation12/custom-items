@@ -786,3 +786,11 @@ item_name: Gold ring
 item_icon: ring_snow
 item_desc: Ring made from gold.
 }
+{
+ckey: tlc2013
+character_name: Hikari Suzuki
+item_path: /obj/item/weapon/nullrod
+item_name: purification rod
+item_icon: reimu
+item_desc: A simple wooden staff, with a small paper talisman attached to the top. It's heavier than it looks, and radiates an odd, calming sort of energy.
+}
