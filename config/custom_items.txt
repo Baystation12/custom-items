@@ -793,4 +793,13 @@ item_path: /obj/item/weapon/nullrod
 item_name: purification rod
 item_icon: reimu
 item_desc: A simple wooden staff, with a small paper talisman attached to the top. It's heavier than it looks, and radiates an odd, calming sort of energy.
+
+}
+{
+ckey: memescopemcgee
+character_name: Lichfield Agathus-Sasparov
+item_path: /obj/item/clothing/head/beret/plaincolor
+item_name: asset protection medic beret
+item_icon: beret_corporate_medic
+item_desc: A white beret adorned with the crest of NanoTrasen Asset Protection's medical division. For asset protection medics that are more inclined towards style than safety.
 }
