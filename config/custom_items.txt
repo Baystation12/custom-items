@@ -803,3 +803,11 @@ item_name: asset protection medic beret
 item_icon: beret_corporate_medic
 item_desc: A white beret adorned with the crest of NanoTrasen Asset Protection's medical division. For asset protection medics that are more inclined towards style than safety.
 }
+{
+ckey: 5crownik007
+character_name: Leslie Souhan
+item_path: /obj/item/clothing/under
+item_name: spacer jumpsuit
+item_icon: spacer
+item_desc: A rear-entry sandy coloured jumpsuit with many pockets; favoured by those who are born, live, and work in micro-G environments - spacers, as they are often called.
+}
