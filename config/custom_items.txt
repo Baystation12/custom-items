@@ -627,8 +627,8 @@ item_icon: michaelwolff
 item_desc: A small photo made to fit a locket. Looking at the picture closely, you can see a blonde man with green eyes sitting in a chair that may be synthleather. He is wearing an expensive suit and has a baby in his lap. The baby also has green eyes and seems to be vat-grown. The man is smiling.
 }
 {
-ckey: zerobits
-character_name: Zachary Porter
+ckey: rowtree
+character_name: Hank Crenshaw
 item_path: /obj/item/weapon/storage/bible
 item_name: Old Bible
 item_icon: zachbible
@@ -737,14 +737,6 @@ item_path: /obj/item/device/camera
 item_name: old camera
 item_icon: osterweis_oldcamera
 item_desc: An old Ward-Takahashi brand personal camera, with a built-in photo developer. Its edges look worn from use. The silver paint on the bottom has been worn away to reveal simple grey plastic beneath, but it looks like the camera still works.
-}
-{
-ckey: zerobits
-character_name: Zachary Porter
-item_path: /obj/item/clothing/accessory/necklace
-item_name: suppedaneum crucifix
-item_icon: zachcrucifix
-item_desc: A silvery necklace with a simple Orthodox cross suspended from it.
 }
 {
 ckey: devildabeast
