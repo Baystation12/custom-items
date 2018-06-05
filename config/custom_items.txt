@@ -455,22 +455,6 @@ item_icon: khartling_jacket_open
 item_desc: A thick, well-worn leather jacket with a crisp green cross sewn on the back. The zipper appears to have torn off. There are dulled patches of motor oil and blood on the fabric.
 }
 {
-ckey: gavinator9
-character_name: Scrakikret
-item_path: /obj/item/clothing/head
-item_name: Broken Visor
-item_icon: vox-broken
-item_desc: An old, broken alien helmet of some type. A thick gash marks the surface and it smells like a foot.
-}
-{
-ckey: gavinator9
-character_name: Scrakikret
-item_path: /obj/item/clothing/suit
-item_name: Tattered Armor
-item_icon: vox-scrakipace
-item_desc: A Tattered mess of some plating. It looks far too broken to actually protect you, and it smells far too bad to actually interest you.
-}
-{
 ckey: noblecaos
 character_name: Kaylee McDughlas
 item_path: /obj/item/clothing/head/helmet/space/emergency
@@ -787,13 +771,18 @@ item_icon: reimu
 item_desc: A simple wooden staff, with a small paper talisman attached to the top. It's heavier than it looks, and radiates an odd, calming sort of energy.
 
 }
-{
-ckey: memescopemcgee
-character_name: Lichfield Agathus-Sasparov
+{
+
+ckey: memescopemcgee
+
+character_name: Lichfield Agathus-Sasparov
+
 item_path: /obj/item/clothing/head/beret/plaincolor
-item_name: asset protection medic beret
+item_name: asset protection medic beret
+
 item_icon: beret_corporate_medic
-item_desc: A white beret adorned with the crest of NanoTrasen Asset Protection's medical division. For asset protection medics that are more inclined towards style than safety.
+item_desc: A white beret adorned with the crest of NanoTrasen Asset Protection's medical division. For asset protection medics that are more inclined towards style than safety.
+
 }
 {
 ckey: 5crownik007
