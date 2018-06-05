@@ -21,6 +21,8 @@ import argparse, re, sys
 from collections import defaultdict
 from os import path
 
+regex_lowercase_alphanumeric = re.compile('^[a-z0-9]*$')
+
 opt = argparse.ArgumentParser()
 opt.add_argument('path', help='The path to the custom sprite config to verify.')
 args = opt.parse_args()
@@ -35,6 +37,8 @@ def has_error(line, split_on):
 	value = split[1].strip()
 	
 	if not key:
+		return 1
+	if not regex_lowercase_alphanumeric.match(key):
 		return 1
 	if not value:
 		return 1

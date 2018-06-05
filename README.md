@@ -1,4 +1,4 @@
-###How to add a custom item
+## How to add a custom item
 
 1. Add a config entry to custom_items.txt. Example:
 
@@ -15,7 +15,7 @@
   }
   ````
 
-  - ckey should be your key with no spaces, all in lowercase. 
+  - ckey should be your key with no spaces or underscores, all in lowercase. 
   - character_name is the exact name you will use for the character the item belongs to.
   - item_name is the object name that will be used when spawned.
   - item_path is the object type the item is based on.
@@ -60,3 +60,44 @@
 9. Add a final two icons to icons/mob/custom_items.dmi under kit_icon_suit and kit_icon_helmet for the on-mob icons.
 
 10. You're done. Compile, test, and discover you misspelled a state, etc.
+
+## How to add a custom AI display
+
+1. Add a config entry to custom_sprites.txt. Either:
+  ````
+  ckey:ai_name
+  ````
+  or
+  ````
+  ckey:ai_name:icon_state
+  ````
+
+  - ckey should be your key with no spaces or underscores, all in lowercase. 
+  - ai_name is the exact name you will use for the AI the display belongs to.
+  - icon_state is the name of your AI icon states without the "-ai" or "-ai-crashed" suffixes. Defaults to the ckey value if unset.
+  
+  Multiple entries per player is possible, as long as the icon_state value is set and unique, i.e.:
+  ````
+  ckey:ai_name:custom_icon_1
+  ckey:ai_name:custom_icon_2
+  ````
+
+2. Add the first or both of the following icon states to icons/custom_synthetic.dmi named {icon_state}-ai and {icon_state}-ai-crash (the ai-crash icon state is optional), replacing {icon_state} with the icon_state value you've selected.
+  ````
+  ckey_example:ExampleAIName
+  ````
+  With the example above the resulting icon state names would be "ckey_example-ai" (required) and "ckey_example-ai-crash" (optional).
+  
+  ````
+  ckey_example:ExampleAIName:example_icon_state
+  ````
+  With the example above the resulting icon state names would be "example_icon_state-ai" (required) and "example_icon_state-ai-crash" (optional).
+
+## How to locally test a custom item
+
+1. Move to your main repo folder and move custom_items.txt from config/example to config/
+2. Open custom_items.txt and enter the define information you'll be pushing to the custom-items repo
+3. Change ckey in the definition to YOUR CKEY. Change name to a character name you will be using for testing, or just use their name.
+4. Add the relevant icons to the relevant files in your main repo folder
+5. Compile and run the game. Ready up, taking note of any job or access restrictions, and start the round. If you did it all correctly, you will have spawned the custom item. If not, it should hopefully give you an error message that can point you in the right direction. 
+6. Once you're done testing, make sure you revert any changes made in your main repo folder. Do not push custom items related things to the main repo!
