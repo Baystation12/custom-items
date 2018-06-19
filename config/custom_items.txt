@@ -803,3 +803,11 @@ item_name: spacer jumpsuit
 item_icon: spacer
 item_desc: A rear-entry sandy coloured jumpsuit with many pockets; favoured by those who are born, live, and work in micro-G environments - spacers, as they are often called.
 }
+{
+ckey: Lanceprater12
+character_name: Kale Fulton
+item_path: /obj/item/weapon/storage/fancy/cigarettes/menthols
+item_name sterling silver cigraette case
+item_icon: TMpacket
+item_desc: A sterling silver cigarette case. It looks like it might be worth a good bit of cash, and it's well polished too! Something is engraved in to the bottom of the case, it appears to be in Independent. "Kale Fulton - 105th Shock Regiment. Za pochetnoye sluzheniye." Whatever that last part means.
+}
