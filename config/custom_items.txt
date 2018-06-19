@@ -787,13 +787,18 @@ item_icon: reimu
 item_desc: A simple wooden staff, with a small paper talisman attached to the top. It's heavier than it looks, and radiates an odd, calming sort of energy.
 
 }
-{
-ckey: memescopemcgee
-character_name: Lichfield Agathus-Sasparov
+{
+
+ckey: memescopemcgee
+
+character_name: Lichfield Agathus-Sasparov
+
 item_path: /obj/item/clothing/head/beret/plaincolor
-item_name: asset protection medic beret
+item_name: asset protection medic beret
+
 item_icon: beret_corporate_medic
-item_desc: A white beret adorned with the crest of NanoTrasen Asset Protection's medical division. For asset protection medics that are more inclined towards style than safety.
+item_desc: A white beret adorned with the crest of NanoTrasen Asset Protection's medical division. For asset protection medics that are more inclined towards style than safety.
+
 }
 {
 ckey: 5crownik007
@@ -802,4 +807,12 @@ item_path: /obj/item/clothing/under
 item_name: spacer jumpsuit
 item_icon: spacer
 item_desc: A rear-entry sandy coloured jumpsuit with many pockets; favoured by those who are born, live, and work in micro-G environments - spacers, as they are often called.
+}
+{
+ckey: lanceprater12
+character_name: Kale Fulton
+item_path: /obj/item/weapon/storage/fancy/cigarettes/menthols
+item_name sterling silver cigraette case
+item_icon: TMpacket
+item_desc: A sterling silver cigarette case. It looks like it might be worth a good bit of cash, and it's well polished too! Something is engraved in to the bottom of the case, it appears to be in Independent. "Kale Fulton - 105th Shock Regiment. Za pochetnoye sluzheniye." Whatever that last part means.
 }
