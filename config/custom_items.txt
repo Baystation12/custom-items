@@ -816,3 +816,11 @@ character_name: Aaron Ehrenhof
 item_path: /obj/item/toy/torchmodel
 item_desc: This is a replica of the SEV Torch, in 1:250th scale, on a handsome wooden stand. Small lights blink on the hull and at the engine exhaust. Engraved in a small plaque on the stand is "A. Ehrenhof".
 }
+{
+ckey: sweedle
+character_name: Max Adams
+item_path: /obj/item/weapon/clipboard
+item_name: legal pad
+item_icon: adamslegal
+item_desc: A blast from the past, low-quality paper bound to a cardboard back. Its pages are no doubt filled with half-complete drafts of essays and official statements. Its owner's name is scrawled across the top in barely legible writing: ADAMS
+}
