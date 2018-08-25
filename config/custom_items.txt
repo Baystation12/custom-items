@@ -779,14 +779,6 @@ item_icon: ring_snow
 item_desc: Ring made from gold.
 }
 {
-ckey: tlc2013
-character_name: Hikari Suzuki
-item_path: /obj/item/weapon/nullrod
-item_name: purification rod
-item_icon: reimu
-item_desc: A simple wooden staff, with a small paper talisman attached to the top. It's heavier than it looks, and radiates an odd, calming sort of energy.
-}
-{
 ckey: memescopemcgee
 character_name: Lichfield Agathus-Sasparov
 item_path: /obj/item/clothing/head/beret/plaincolor
@@ -823,4 +815,12 @@ item_path: /obj/item/weapon/clipboard
 item_name: legal pad
 item_icon: adamslegal
 item_desc: A blast from the past, low-quality paper bound to a cardboard back. Its pages are no doubt filled with half-complete drafts of essays and official statements. Its owner's name is scrawled across the top in barely legible writing: ADAMS
+}
+{
+ckey: tlc2013
+character_name: Karen Kingston
+item_path: /obj/item/clothing/head/tophat
+item_name: executive's tophat
+item_icon: exehat
+item_desc: A sleek (if not exactly slim) purple tophat with a curled brim. The NanoTrasen logo is emblazoned on the front, in what may be actual gold. Something about it brings to mind a sense of childish whimsy.
 }
