@@ -819,7 +819,7 @@ item_desc: A blast from the past, low-quality paper bound to a cardboard back. I
 {
 ckey: tlc2013
 character_name: Karen Kingston
-item_path: /obj/item/clothing/head/tophat
+item_path: /obj/item/clothing/head/that
 item_name: executive's tophat
 item_icon: exehat
 item_desc: A sleek (if not exactly slim) purple tophat with a curled brim. The NanoTrasen logo is emblazoned on the front, in what may be actual gold. Something about it brings to mind a sense of childish whimsy.
