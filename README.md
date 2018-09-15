@@ -24,6 +24,8 @@
   - req_titles is a list of exact titles and alt titles that this item will spawn for. Separate them with a comma and a space (, ) or they will break.
   - req_access is a numerical value corresponding to the various station access constants. I don't recommend using this.
 
+**Note** - All icons should be added to the **END** of the relevant file. This helps organisation.
+
 2. Add an icon to represent the item when held in the hand to icons/obj/custom_items.dmi (or whatever your codebase defines as CUSTOM_ITEM_OBJ). The icon state should be the same as the value set for item_icon in the config.
 
 3. Add icons to icons/mob/custom_items.dmi (or, again, whatever your codebase defines as CUSTOM_ITEM_MOB) for inhands. You need a left and right icon. The icon state should be the item_icon followed by _l for left and _r for right.
