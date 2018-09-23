@@ -824,3 +824,11 @@ item_name: executive's tophat
 item_icon: exehat
 item_desc: A sleek (if not exactly slim) purple tophat with a curled brim. The NanoTrasen logo is emblazoned on the front, in what may be actual gold. Something about it brings to mind a sense of childish whimsy.
 }
+{
+ckey: jusa297
+character_name: Shinobu Sasaki
+item_path: /obj/item/clothing/head/soft
+item_name: Aviator hat
+item_icon: aviator_hat
+item_desc: A vintage brown aviator hat with the word "Sasaki" engraved on it, the googles are big and it seems to have been kept in great condition.
+}
