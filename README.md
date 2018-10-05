@@ -1,5 +1,4 @@
 ## How to add a custom item
-
 1. Add a config entry to custom_items.txt. Example:
 
   ````
@@ -63,8 +62,19 @@
 
 10. You're done. Compile, test, and discover you misspelled a state, etc.
 
-## How to add a custom AI display
+## How to add a custom robot icon sheet
+1. Add a config entry to custom_sprites.txt:
+```
+ckey-robotname
+```
 
+1. Create icon and eye states for each of the following modules: Standard, Engineering, Construction, Janitor, Surgeon, Crisis, Miner, Security, Service, Clerical, Research
+1. Create maintenance panel states for: opened, cell removed, and wires cut.
+1. Name your main states in the following format: `yourckey-ModuleName`
+1. Name your eyes states in the following format: `eyes-yourckey-ModuleName`
+1. The open panel should be named yourkey-openpanel +c; the panel with no cell should be named `yourckey-openpanel-c`; the wire panel should be named `yourckey-openpanel +w`
+
+## How to add a custom AI display
 1. Add a config entry to custom_sprites.txt. Either:
   ````
   ckey:ai_name
