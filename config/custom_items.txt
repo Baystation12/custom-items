@@ -832,3 +832,10 @@ item_name: Aviator hat
 item_icon: aviator_hat
 item_desc: A vintage brown aviator hat with the word "Sasaki" engraved on it, the googles are big and it seems to have been kept in great condition.
 }
+}
+ckey: zaecathe
+character_name: Karax Ug'Khara
+item_path: /obj/item/clothing/suit
+item_name: Winter Hunting Cloak
+item_icon:
+item_desc: An odd-looking cloak colored white. Its interior is covered with a layer of soft fur, and looks very comfortable.
