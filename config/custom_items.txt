@@ -84,7 +84,7 @@ character_name: Li Matsuda
 item_name: blue zippo lighter
 item_desc: A zippo lighter made of some blue metal.
 item_icon: bluezippo
-item_path: /obj/item/weapon/flame/lighter/zippo
+item_path: /obj/item/weapon/flame/lighter/zippo/custom
 }
 {
 ckey: vivallion
@@ -92,7 +92,7 @@ character_name: Isaac Jachym
 item_name: butterfly lighter
 item_desc: A custom-made zippo lighter, looks rather expensive. On one of it's sides, a clean inscription has been made, 'Butterfly, what is your wisdom?' And I looked down at it's majestic form, flexing it's wings as if to show it's strength. 'Fuck chechenya.' Had it whispered, before fluttering away, and so we went to war.'
 item_icon: che_zippo
-item_path: /obj/item/weapon/flame/lighter/zippo
+item_path: /obj/item/weapon/flame/lighter/zippo/custom
 }
 {
 ckey: ziepes
@@ -100,7 +100,7 @@ character_name: Janis Godmanis
 item_name: red-white-red zippo
 item_desc: A badass zippo that looks like the Austrian flag. Upon closer inspection it is revealed that it's a different shade of red than the Austrian flag.
 item_icon: redzippo
-item_path: /obj/item/weapon/lighter/zippo/fluff/janis_godmanis
+item_path: /obj/item/weapon/flame/lighter/zippo/custom
 }
 {
 ckey: astronovus
