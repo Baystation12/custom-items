@@ -833,7 +833,7 @@ item_icon: aviator_hat
 item_desc: A vintage brown aviator hat with the word "Sasaki" engraved on it, the googles are big and it seems to have been kept in great condition.
 }
 {
-ckey: SovietCyanide
+ckey: sovietcyanide
 character_name: Andrew Hassen
 item_path: /obj/item/weapon/reagent_containers/food/drinks/coffeecup
 item_name: Novelty Mug
@@ -841,7 +841,7 @@ item_icon: coffeecup_label
 item_desc: A white Novelty Mug with a black square and 'Chat Shit Get Banged' written in bold white letters on the front square.
 }
 {
-ckey: SovietCyanide
+ckey: sovietcyanide
 character_name: Andrew Hassen
 item_path: /obj/item/device/radio/headset/bridgeofficer/alt
 item_name: Old Bowman Headset
