@@ -848,3 +848,19 @@ item_name: Old Bowman Headset
 item_icon: headset_old
 item_desc: An old Radiomans headset modified to work as a Bowman headset.
 }
+{
+ckey: teddybehr
+character_name: Elu Ibelum
+item_path: /obj/item/clothing/under
+item_name: greentree field uniform
+item_icon: combatuniform
+item_desc: A loose fitting tan garment resembling 21st century military uniforms. It appears to be a custom size.
+}
+{
+ckey: teddybehr
+character_name: Elu Ibelum
+item_path: /obj/item/clothing/shoes
+item_name: greentree field boots
+item_icon: combatboots
+item_desc: Some thick looking tan boots, Unathi style.
+}
