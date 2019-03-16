@@ -864,3 +864,11 @@ item_name: greentree field boots
 item_icon: combatboots
 item_desc: Some thick looking tan boots, Unathi style.
 }
+{
+ckey: themojavewanderer
+character_name: Krzysztof Kowalczyk
+item_path: /obj/item/clothing/under
+item_name: Worn Contractor Uniform
+item_desc: An old uniform consisting of a set of faded white overalls and a banana yellow shirt with green markings on the arms. A small Terran flag patch sits on the right breast, half obscured by the strap.
+item_icon: worn_c_uniform
+}
