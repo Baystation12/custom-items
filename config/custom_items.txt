@@ -872,3 +872,11 @@ item_name: Worn Contractor Uniform
 item_desc: An old uniform consisting of a set of faded white overalls and a banana yellow shirt with green markings on the arms. A small Terran flag patch sits on the right breast, half obscured by the strap.
 item_icon: worn_c_uniform
 }
+{
+ckey: aticius
+character_name: Zehll Szal Aerets
+item_path: /obj/item/clothing/head/welding
+item_name: grave islander mask
+item_icon: graveisland
+item_desc: a piece of... steel? plasteel? that has been hammered to fit a non-human shape. Looks like a bird skull got smooshed into a plate of metal.
+}
