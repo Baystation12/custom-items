@@ -101,7 +101,7 @@ with open(args.path, 'r') as file:
 		else:
 			verify_item_line(line, line_number, found_keys, errors)
 
-for line_num, error_list in errors.iteritems():
+for line_num, error_list in errors.items():
 	if len(error_list) == 1:
 		print('%d: %s' % (line_num, error_list[0]))
 	else:
