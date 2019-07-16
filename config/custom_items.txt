@@ -880,3 +880,11 @@ item_name: grave islander mask
 item_icon: graveisland
 item_desc: a piece of... steel? plasteel? that has been hammered to fit a non-human shape. Looks like a bird skull got smooshed into a plate of metal.
 }
+{
+ckey: mikomyazaki2
+character_name: Melody Lee
+item_path: /obj/item/clothing/mask/gas/mime
+item_name: mime mask
+item_icon: mime
+item_desc: The traditional mime's mask. It has an eerie facial posture.
+}
