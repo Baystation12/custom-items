@@ -888,3 +888,11 @@ item_name: mime mask
 item_icon: mime
 item_desc: The traditional mime's mask. It has an eerie facial posture.
 }
+{
+ckey: themelodyoflife
+character_name: XY-1717
+item_path: /obj/item/clothing/under
+item_name: expensive dress
+item_icon: expensive_dress
+item_desc: This is one of the many fancy dresses made by Queensland. It's made out of the finest synthetic materials, making it incredibly soft and elegant.
+}
