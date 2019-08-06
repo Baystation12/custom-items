@@ -905,3 +905,12 @@ item_icon: army_jacket
 item_desc: A military tanker jacket bearing the insignia of the 1st Armored Division.
 req_titles: Passenger
 }
+{
+ckey: ghostsheet
+character_name: Matt Krisher
+item_path: /obj/item/clothing/accessory
+item_name: luna pilot license
+item_icon: pilot_license
+item_desc: A license to operate spacecrafts, certified by Luna Orbital Spacecraft Facility. It reads Matt Krisher, Expires: 2305.
+req_titles: Salvage Technician
+}
