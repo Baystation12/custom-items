@@ -914,3 +914,13 @@ item_icon: pilot_license
 item_desc: A license to operate spacecrafts, certified by Luna Orbital Spacecraft Facility. It reads Matt Krisher, Expires: 2305.
 req_titles: Salvage Technician
 }
+{
+ckey: zenithstar
+character_name: Nikolas Jenkins
+item_path: /obj/item/device/kit/suit
+item_name: Jenkins Construction suit customisation kit
+item_desc: A customisation kit with all the parts needed to convert a suit.
+kit_name: construction
+kit_desc: An engineering voidsuit. A stitched label on the chest reads "Jenkins Construction"
+kit_icon: construction
+}
