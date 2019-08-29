@@ -924,3 +924,12 @@ kit_name: construction
 kit_desc: An engineering voidsuit. A stitched label on the chest reads "Jenkins Construction"
 kit_icon: construction
 }
+{
+ckey: plaugewalker
+character_name: Elias Ganning
+item_path: /obj/item/clothing/gloves/color
+item_name: PWCD
+item_icon: pwcd
+item_desc: This wrist mounted computer was the Belters' answer for the older PDAs at the time, seeing use throughout the golden era when Ceres still operated as a mining facility. It now still sees wide use on various civilian to government vessels by use of engineering, or mining departments to the rare science department. Having a strong reputation for being modular, this one comes with an alarm clock and radio but the geiger counter seems to have been busted due to time. 
+req_titles: Engineer, Prospector, Bartender, Crewman, Passenger, Corporate Liaison, Loss Prevention Associate, Senior Engineer, Roboticist, Chief Engineer, Biomechanical Engineer 
+}
