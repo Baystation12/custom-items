@@ -1,0 +1,8 @@
+{
+	"ckey" :            "masterrbc",
+	"character_name" :  "Jikkachakkita",
+	"item_name" :       "repurposed visor",
+	"item_desc" :       "It's an alien visor. It looks as though it was damaged and has been repaired. A top-mounted flashlight has been jury-rigged to it. It doesn't appear to be space-worthy anymore.",
+	"item_icon_state" : "vox-carapace-destroyed",
+	"item_path" :       "pathtoanitem"
+  }

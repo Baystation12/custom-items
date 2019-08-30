@@ -1,0 +1,8 @@
+{
+	"ckey" :            "solaruin",
+	"character_name" :  "Cybele Petit",
+	"item_name" :       "salvage",
+	"item_desc" :       "A piece of orange voidsuit armour used by salvage flotillas. Has reinforced plating.",
+	"item_icon_state" : "salvage",
+	"item_path" :       "/obj/item/device/kit/suit"
+  }

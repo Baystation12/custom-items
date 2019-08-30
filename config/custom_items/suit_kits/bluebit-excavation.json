@@ -1,0 +1,9 @@
+{
+	"ckey" :            "bluebit",
+	"character_name" :  "Jimson Bubbs",
+	"item_name" :       "excavation",
+	"item_desc" :       "A much bulkier version of standard Torch excavation gear. It is shielded against some exotic alien energies, as well as the more mundane dangers of excavation.",
+	"item_icon_state" : "fishcavation",
+	"item_path" :       "/obj/item/device/kit/suit",
+	"additional_data" : { "light_overlay" : "yellow_light" }
+  }

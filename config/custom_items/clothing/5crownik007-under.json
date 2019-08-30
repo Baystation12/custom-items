@@ -1,0 +1,8 @@
+{
+	"ckey" :            "5crownik007",
+	"character_name" :  "Leslie Souhan",
+	"item_name" :       "spacer jumpsuit",
+	"item_desc" :       "A rear-entry sandy coloured jumpsuit with many pockets; favoured by those who are born, live, and work in micro-G environments - spacers, as they are often called.",
+	"item_icon_state" : "spacer",
+	"item_path" :       "/obj/item/clothing/under"
+  }

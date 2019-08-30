@@ -1,0 +1,8 @@
+{
+	"ckey" :            "themelodyoflife",
+	"character_name" :  "XY-1717",
+	"item_name" :       "expensive dress",
+	"item_desc" :       "This is one of the many fancy dresses made in Queensland. It's made out of the finest synthetic materials, making it incredibly soft and elegant.",
+	"item_icon_state" : "expensive_dress",
+	"item_path" :       "/obj/item/clothing/under/skirt"
+  }

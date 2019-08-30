@@ -1,0 +1,9 @@
+{
+	"ckey" :            "ghostsheet",
+	"character_name" :  "Matt Krisher",
+	"item_name" :       "luna pilot license",
+	"item_desc" :       "A license to operate spacecrafts, certified by Luna Orbital Spacecraft Facility. It reads Matt Krisher, Expires: 2305.",
+	"item_icon_state" : "pilot_license",
+	"item_path" :       "/obj/item/clothing/accessory",
+	"req_titles" :      [ "Salvage Technician" ]
+  }
