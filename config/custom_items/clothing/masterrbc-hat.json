@@ -1,8 +1,7 @@
 {
 	"ckey" :            "masterrbc",
-	"character_name" :  "Jikkachakkita",
-	"item_name" :       "repurposed visor",
-	"item_desc" :       "It's an alien visor. It looks as though it was damaged and has been repaired. A top-mounted flashlight has been jury-rigged to it. It doesn't appear to be space-worthy anymore.",
-	"item_icon_state" : "vox-carapace-destroyed",
-	"item_path" :       "pathtoanitem"
+	"character_name" :  "Robert Mason",
+	"item_name" :       "corporate cap",
+	"item_desc" :       "It's a baseball hat in corporate colors.",
+	"item_path" :       "/obj/item/clothing/head/soft/sec/corp"
   }

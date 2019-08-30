@@ -2,8 +2,8 @@
   "ckey" :            "raptor1628",
   "character_name" :  "Ronan Harper",
   "item_name" :       "PRC uniform",
-  "item_desc" :       "descdescdescdesc",
-  "item_icon_state" : "A well maintained uniform from one of the many private security firms Nanotrasen hires from. The name 'Harper' is printed on the back.",
+  "item_desc" :       "A well maintained uniform from one of the many private security firms Nanotrasen hires from. The name 'Harper' is printed on the back.",
+  "item_icon_state" : "harper_uniform",
   "item_path" :       "/obj/item/clothing/under/suit_jacket/corp",
   "req_titles" :      [ "Loss Prevention Associate" ]
 }
