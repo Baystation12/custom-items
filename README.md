@@ -5,18 +5,18 @@
 
 3. Fill out the provided template in the directory of your choice. See chart below for an explanation of the values.
 
-| Key             | Expected Value   | Function                                                                                                         |
-|-----------------|------------------|------------------------------------------------------------------------------------------------------------------|
-| ckey            | string           | Your ckey. This is not quite the same as your BYOND key, ask an admin or check the BYOND docs if you are unsure. |
-| character_name  | string           | The name of the character the item should spawn with.                                                            |
-| item_name       | string           | The name of your custom item ingame. For kits, the name of the kit product.                                      |
-| item_desc       | string           | The description of your custom item ingame. For kits, the descriptor for the kit product.                        |
-| item_icon_state | string           | The icon state for your custom item. For kits, the icon state of the kit product.                                |
-| item_path       | string           | A fully specified BYOND object path (ie. /obj/item/foo/bar).                                                     |
-| inherit_inhands | true/false       | Whether or not it should override the inhands of the base item.                                                  |
-| req_access      | array of strings | Access strings required for the character to have this item on spawn.                                            |
-| req_titles      | array of strings | Titles and alt titles that are allowed to spawn with this item.                                                  |
-| additional_data | array of values  | An associative list of other values. Currently used fields: "light_overlay".                                     |
+| Key                    | Expected Value   | Function                                                                                                          |
+|------------------------|------------------|-------------------------------------------------------------------------------------------------------------------|
+| ckey                   | string           | Your ckey. This is not quite the same as your BYOND key, ask an admin or check the BYOND docs if you are unsure.  |
+| character_name         | string           | The name of the character the item should spawn with.                                                             |
+| item_name              | string           | The name of your custom item ingame. For kits, the name of the kit product.                                       |
+| item_desc              | string           | The description of your custom item ingame. For kits, the descriptor for the kit product.                         |
+| item_icon_state        | string           | The icon state for your custom item. For kits, the icon state of the kit product.                                 |
+| item_path              | string           | A fully specified BYOND object path (ie. /obj/item/foo/bar).                                                      |
+| apply_to_target_type   | string           | A fully specified BYOND object path (ie. /obj/item/foo/bar) Only set this if you are reskinning an existing item. |
+| req_access             | array of strings | Access strings required for the character to have this item on spawn.                                             |
+| req_titles             | array of strings | Titles and alt titles that are allowed to spawn with this item.                                                   |
+| additional_data        | array of values  | An associative list of other values. Currently used fields: "light_overlay".                                      |
 
 **Note** - All icons should be added to the **END** of the relevant file. This helps organisation.
 
@@ -26,15 +26,11 @@
 
 6. If the item is wearable, add an icon to icons/mob/custom_items.dmi for the on-mob icon.
 
-7. For mechs, add three icons to icons/obj/custom_items.dmi - kit_icon, kit_icon-open and kit_icon-broken. These are the mech icon, the icon when stationary and without a pilot, and the wreckage icon respectively. You're done now, good work.
+8. For voidsuit kits:
+  - Add two icons to icons/obj/custom_items.dmi - the icon for the suit, and the helmet, both assigned as `item_icon_state` in your .json file. These icons represent the suit parts when in your inventory.
+  - Add four icons to icons/mob/custom_items.dmi. These are the two in-hand icons (see step 5), the helmet, and the suit. These icons represent the suit parts when held in your hands or equipped. If you already added your in-hand icons in step 5, just add the helmet and suit on-mob icons.
 
-8. For suits, add two icons to icons/obj/custom_items.dmi - kit_icon_suit and kit_icon_helmet. These icons represent the suit parts when in inventory.
-
-9. Add four icons to icons/mob/custom_items.dmi. You need to add in-hand icons (see 3) for both kit_icon_suit and kit_icon_helmet.
-
-10. Add a final two icons to icons/mob/custom_items.dmi under kit_icon_suit and kit_icon_helmet for the on-mob icons.
-
-11. You're done. Compile, test, and discover you misspelled a state, etc.
+11. You're done. Compile, test (see final section below), and discover you misspelled a state, etc.
 
 ## How to add a custom robot icon sheet
 1. Add a config entry to custom_sprites.txt:
@@ -84,5 +80,5 @@ ckey-robotname
 1. Create a .json file as directed above, and place it in the `config/custom_items` directory of your local copy of your main repository (eg. Baystation12)
 3. Change ckey in the definition to YOUR CKEY. Change name to a character name you will be using for testing, or just use their name.
 4. Add the relevant icons to the relevant files in your main repo folder.
-5. Compile and run the game. Ready up, taking note of any job or access restrictions, and start the round. If you did it all correctly, you will have spawned the custom item. If not, it should hopefully give you an error message that can point you in the right direction. 
+5. Compile and run the game. Ready up, taking note of any job or access restrictions, and start the round. If you did it all correctly, you will have spawned the custom item. If not, it should hopefully print an error to world.log. 
 6. Once you're done testing, make sure you revert any changes made in your main repo folder. Do not push custom items related things to the main repo!

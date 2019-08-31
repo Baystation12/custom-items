@@ -17,100 +17,75 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 '''
-import argparse, re, sys
+
+import json
+import argparse
+import re
+import sys
+import os
 from collections import defaultdict
 from os import path
+from os import walk
 
 opt = argparse.ArgumentParser()
-opt.add_argument('path', help='The path to the custom item config to verify.')
+opt.add_argument('path', help='The path to the root custom item directory to verify.')
 args = opt.parse_args()
 
-if(not path.isfile(args.path)):
-    print('Not a file: ' + args.path)
-    sys.exit(1)
+if(not path.isdir(args.path)):
+	print('Not a directory: ' + args.path)
+	sys.exit(1)
 	
-errors = defaultdict(list)
-mandatory_keys = ['ckey', 'character_name']
-
 regex_lowercase_alphanumeric = re.compile('^[a-z0-9]*$')
 regex_not_whitespace = re.compile('.*\S.*')
+errors = defaultdict(list)
+mandatory_keys = ['ckey', 'character_name']
+key_value_alphanumeric =  ['ckey']
+key_value_no_whitespace = ['character_name', 'item_name', 'item_desc', 'item_path', 'item_icon_state']
+key_value_array =         ['req_access', 'req_titles']
+key_value_dictionary =    ['additional_data']
 
-known_keys = {
-	'ckey': [regex_lowercase_alphanumeric],
-	'character_name': [regex_not_whitespace],	
-	'item_path': [regex_not_whitespace],
-	'item_name': [regex_not_whitespace],
-	'item_icon': [regex_not_whitespace],
-	'inherit_inhands': [regex_not_whitespace],
-	'item_desc': [regex_not_whitespace],
-	'req_access': [regex_not_whitespace],
-	'req_titles': [regex_not_whitespace],
-	'kit_name': [regex_not_whitespace],
-	'kit_desc': [regex_not_whitespace],
-	'kit_icon': [regex_not_whitespace],
-	'additional_data': [regex_not_whitespace]
-	}
-	
-def verify_item_line(line, line_number, found_keys, errors):
-	if not ':' in line:
-		errors[line_number].append("No : found")
-		return
+for root, dirs, files in os.walk(args.path):
+	for file in files:
+		if file.endswith('.json'):
+			inputPath = os.path.join(root, file)
+			try:
+				inputFile = open(inputPath, 'r')
+				inputJson = json.loads(inputFile.read())
+				inputFile.close()
+				for mandatory_key in mandatory_keys:
+					if not mandatory_key in inputJson:
+						errors[inputPath].append('Missing mandatory key: %s' % mandatory_key)
+				found_keys = defaultdict(int)
+				for key in inputJson:
+					found_keys[key] = found_keys[key] + 1
+					if found_keys[key] > 1:
+						print("1 %s" % key)
+						errors[inputPath].append('Duplicate key: %s' % key)
+					elif key in key_value_alphanumeric:
+						if not regex_lowercase_alphanumeric.match(inputJson[key]):
+							errors[inputPath].append("Invalid format - expected lowercase alphanumeric string: %s" % str(inputJson[key]))
+					elif key in key_value_no_whitespace:
+						if not regex_not_whitespace.match(inputJson[key]):
+							errors[inputPath].append("Invalid format - expected whitespace-free string: %s" % str(inputJson[key]))
+					elif key in key_value_array:
+						if not isinstance(inputJson[key], list):
+							errors[inputPath].append("Invalid format - expected list: %s" % str(inputJson[key]))
+					elif key in key_value_dictionary:
+						if not isinstance(inputJson[key], dict):
+							errors[inputPath].append("Invalid format - expected dictionary: %s" % str(inputJson[key]))
+					else:
+						errors[inputPath].append("Unknown key: %s" % key)
+			except Exception as ex:
+				template = "Exception of type {0}:\n{1!r}"
+				errors[inputPath].append(template.format(type(ex).__name__, ex.args))
 
-	split = line.split(':', 1)
-	key = split[0].strip()
-	value = split[1].strip()
-	
-	if not key in known_keys:
-		errors[line_number].append("Unknown key: %s" % key)
-	else:
-		found_keys[key] = found_keys[key] + 1
-		if found_keys[key] > 1:
-			errors[line_number].append("Duplicate key: %s" % key)
-			return
-		for regex in known_keys[key]:
-			if not regex.match(value):
-				errors[line_number].append("Invalid format: '%s'" % value)
-		
-def verify_block(line_number, found_keys, errors):
-	for mandatory_key in mandatory_keys:
-		if not mandatory_key in found_keys:
-			errors[line_number].append('Mandatory key missing: %s' % mandatory_key)
-
-block_open = 0
-line_number = 0
-found_keys = defaultdict(int)
-
-with open(args.path, 'r') as file:
-	for line in file:
-		line_number += 1
-		line = line.strip()
-		if (not line) or line.startswith('#'):
-			continue
-		if line == '{':
-			if block_open:
-				print('{ followed by {, expected }, at line %d' % line_number)
-				sys.exit(1)
-			block_open = 1
-		elif line == '}':
-			if not block_open:
-				print('} without preceding { at line %d' % line_number)
-				sys.exit(1)
-			block_open = 0
-			verify_block(line_number, found_keys, errors)
-			found_keys.clear()
-		else:
-			verify_item_line(line, line_number, found_keys, errors)
-
-for line_num, error_list in errors.items():
+for file_path, error_list in errors.items():
 	if len(error_list) == 1:
-		print('%d: %s' % (line_num, error_list[0]))
+		print('%s: %s' % (file_path, error_list[0]))
 	else:
-		print(line_num)
+		print(file_path)
 		for error in error_list:
 			print("\t%s" % error)
 
-if block_open:
-	print('Last block unclosed.')
-	sys.exit(1)
 if len(errors) > 0:
 	sys.exit(1)
