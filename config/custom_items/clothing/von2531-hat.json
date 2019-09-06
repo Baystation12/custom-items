@@ -1,0 +1,8 @@
+{
+	"ckey" :            "von2531",
+	"character_name" :  "Jack Washington",
+	"item_name" :       "colonial marine beret",
+	"item_desc" :       "A well-worn navy blue beret. The insignia of the Martian Colonial Marine Corps is affixed to the front.",
+	"item_path" :       "/obj/item/clothing/head/beret/sec/corporate/officer",
+	"req_access" :      [ "ACCESS_SECURITY" ]
+  }

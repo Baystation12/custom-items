@@ -1,0 +1,8 @@
+{
+	"ckey" :            "tcone",
+	"character_name" :  "Daniel Snow",
+	"item_name" :       "gold ring",
+	"item_desc" :       "It's a gold ring.",
+	"item_icon_state" : "ring_snow",
+	"item_path" :       "/obj/item/clothing/ring/material/gold"
+  }

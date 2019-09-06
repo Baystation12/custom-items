@@ -1,0 +1,9 @@
+{
+	"ckey" :            "pneumothorax",
+	"character_name" :  "Gwendolyn Bright",
+	"item_name" :       "tanker jacket",
+	"item_desc" :       "A military tanker jacket bearing the insignia of the 1st Armored Division.",
+	"item_icon_state" : "army_jacket",
+	"item_path" :       "/obj/item/clothing/suit/storage/hazardvest",
+	"req_titles" :      [ "Passenger" ]
+  }

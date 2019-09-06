@@ -1,0 +1,8 @@
+{
+	"ckey" :            "chike101",
+	"character_name" :  "Richard Cooper",
+	"item_name" :       "exotic shirt",
+	"item_desc" :       "A laid-back ancient-Earth Hawaiian shirt and pants, which have little to do with infinity or jelly donuts.",
+	"item_icon_state" : "cooper_outfit",
+	"item_path" :       "/obj/item/clothing/under"
+  }

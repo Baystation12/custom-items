@@ -1,0 +1,8 @@
+{
+	"ckey" :            "noblecaos",
+	"character_name" :  "Duncan McGhul",
+	"item_name" :       "blast miner",
+	"item_desc" :       "A reinforced, pressurized bombsuit with with a bright orange hardhat, with a metal plated blastshield. The bombsuit has several patches with pictures on it, most depicting explosion warnings.",
+	"item_icon_state" : "blast",
+	"item_path" :       "/obj/item/device/kit/suit"
+  }

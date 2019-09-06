@@ -1,0 +1,10 @@
+{
+  "ckey" :            "fakeperson",
+  "character_name" :  "Joe Bloggs",
+  "item_name" :       "Joe's hat",
+  "item_desc" :       "It's Joe's hat. It's so unremarkable, it hurts.",
+  "item_icon_state" : "some_custom_clothing_icon_state",
+  "item_path" :       "/obj/item/clothing/path_to_a_real_item",
+  "req_titles" :      [ "Janitor" ],
+  "req_access" :      [ "ACCESS_CAVEMAN" ]
+}

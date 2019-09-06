@@ -1,66 +1,36 @@
 ## How to add a custom item
-1. Add a config entry to custom_items.txt. Example:
+1. Pick the most relevant directory for your item, and examine the template inside.
 
-  ````
-  {
-  ckey: zuhayr
-  character_name: Jane Doe
-  item_path: /obj/item/toy/plushie
-  item_name: ugly plush toy
-  item_icon: flagmask
-  item_desc: It's truly hideous.
-  req_titles: Assistant, Security Officer
-  req_access: 1
-  }
-  ````
+2. Create a .json file in the directory with the following naming scheme: ckey-itemtype.json (e.g. babydoll-necklace.json)
 
-  - ckey should be your key with no spaces or underscores, all in lowercase. 
-  - character_name is the exact name you will use for the character the item belongs to.
-  - item_name is the object name that will be used when spawned.
-  - item_path is the object type the item is based on.
-  - item_icon is the icon state the item will use. More details on this below.
-  - item_desc is the description the item will use.
-  - req_titles is a list of exact titles and alt titles that this item will spawn for. Separate them with a comma and a space (, ) or they will break.
-  - req_access is a numerical value corresponding to the various station access constants. I don't recommend using this.
+3. Fill out the provided template in the directory of your choice. See chart below for an explanation of the values.
+
+| Key                    | Expected Value   | Function                                                                                                          |
+|------------------------|------------------|-------------------------------------------------------------------------------------------------------------------|
+| ckey                   | string           | Your ckey. This is not quite the same as your BYOND key, ask an admin or check the BYOND docs if you are unsure.  |
+| character_name         | string           | The name of the character the item should spawn with.                                                             |
+| item_name              | string           | The name of your custom item ingame. For kits, the name of the kit product.                                       |
+| item_desc              | string           | The description of your custom item ingame. For kits, the descriptor for the kit product.                         |
+| item_icon_state        | string           | The icon state for your custom item. For kits, the icon state of the kit product.                                 |
+| item_path              | string           | A fully specified BYOND object path (ie. /obj/item/foo/bar).                                                      |
+| apply_to_target_type   | string           | A fully specified BYOND object path (ie. /obj/item/foo/bar) Only set this if you are reskinning an existing item. |
+| req_access             | array of strings | Access strings required for the character to have this item on spawn.                                             |
+| req_titles             | array of strings | Titles and alt titles that are allowed to spawn with this item.                                                   |
+| additional_data        | array of values  | An associative list of other values. Currently used fields: "light_overlay".                                      |
 
 **Note** - All icons should be added to the **END** of the relevant file. This helps organisation.
 
-2. Add an icon to represent the item when held in the hand to icons/obj/custom_items.dmi (or whatever your codebase defines as CUSTOM_ITEM_OBJ). The icon state should be the same as the value set for item_icon in the config.
+4. Add an icon to represent the item when held in the hand to icons/obj/custom_items.dmi (or whatever your codebase defines as CUSTOM_ITEM_OBJ). The icon state should be the same as the value set for item_icon in the config.
 
-3. Add icons to icons/mob/custom_items.dmi (or, again, whatever your codebase defines as CUSTOM_ITEM_MOB) for inhands. You need a left and right icon. The icon state should be the item_icon followed by _l for left and _r for right.
+5. Add icons to icons/mob/custom_items.dmi (or, again, whatever your codebase defines as CUSTOM_ITEM_MOB) for inhands. You need a left and right icon. The icon state should be the item_icon followed by _l for left and _r for right.
 
-4. If the item is wearable, add an icon to icons/mob/custom_items.dmi for the on-mob icon.
+6. If the item is wearable, add an icon to icons/mob/custom_items.dmi for the on-mob icon.
 
-5. If the item isn't a kit, you're done. Have fun. Kits have several extra variables and icons.
+8. For voidsuit kits:
+  - Add two icons to icons/obj/custom_items.dmi - the icon for the suit, and the helmet, both assigned as `item_icon_state` in your .json file. These icons represent the suit parts when in your inventory.
+  - Add four icons to icons/mob/custom_items.dmi. These are the two in-hand icons (see step 5), the helmet, and the suit. These icons represent the suit parts when held in your hands or equipped. If you already added your in-hand icons in step 5, just add the helmet and suit on-mob icons.
 
-  ````
-  {
-  ckey: zuhayr
-  character_name: Jane Doe
-  item_path: /obj/item/device/kit/paint
-  item_name: APLU customisation kit
-  item_desc: A customisation kit with all the parts needed to turn an APLU into a "Titan's Fist" model.
-  kit_name: APLU "Titan's Fist"
-  kit_desc: Looks like an overworked, under-maintained Ripley with some horrific damage.
-  kit_icon: titan
-  additional_data: ripley, firefighter
-  }
-  ````
-
-  - kit_name is the name that will be used for the items the kit is used on.
-  - kit_desc is the description that will be applied to items the kit is used on.
-  - kit_icon is the icon_state that the kit will use.
-  - additional_data has two roles. For voidsuit kits, it's the type of helmet light overlay to use. For mechs, it's a list of the mech types the kit can be used on (separated by ', ' like titles).
-
-6. For mechs, add three icons to icons/obj/custom_items.dmi - kit_icon, kit_icon-open and kit_icon-broken. These are the mech icon, the icon when stationary and without a pilot, and the wreckage icon respectively. You're done now, good work.
-
-7. For suits, add two icons to icons/obj/custom_items.dmi - kit_icon_suit and kit_icon_helmet. These icons represent the suit parts when in inventory.
-
-8. Add four icons to icons/mob/custom_items.dmi. You need to add in-hand icons (see 3) for both kit_icon_suit and kit_icon_helmet.
-
-9. Add a final two icons to icons/mob/custom_items.dmi under kit_icon_suit and kit_icon_helmet for the on-mob icons.
-
-10. You're done. Compile, test, and discover you misspelled a state, etc.
+11. You're done. Compile, test (see final section below), and discover you misspelled a state, etc.
 
 ## How to add a custom robot icon sheet
 1. Add a config entry to custom_sprites.txt:
@@ -107,9 +77,8 @@ ckey-robotname
 
 ## How to locally test a custom item
 
-1. Move to your main repo folder and move custom_items.txt from config/example to config/
-2. Open custom_items.txt and enter the define information you'll be pushing to the custom-items repo
+1. Create a .json file as directed above, and place it in the `config/custom_items` directory of your local copy of your main repository (eg. Baystation12)
 3. Change ckey in the definition to YOUR CKEY. Change name to a character name you will be using for testing, or just use their name.
-4. Add the relevant icons to the relevant files in your main repo folder
-5. Compile and run the game. Ready up, taking note of any job or access restrictions, and start the round. If you did it all correctly, you will have spawned the custom item. If not, it should hopefully give you an error message that can point you in the right direction. 
+4. Add the relevant icons to the relevant files in your main repo folder.
+5. Compile and run the game. Ready up, taking note of any job or access restrictions, and start the round. If you did it all correctly, you will have spawned the custom item. If not, it should hopefully print an error to world.log. 
 6. Once you're done testing, make sure you revert any changes made in your main repo folder. Do not push custom items related things to the main repo!

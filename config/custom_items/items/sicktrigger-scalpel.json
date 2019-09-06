@@ -1,0 +1,8 @@
+{
+	"ckey" :            "sicktrigger",
+	"character_name" :  "David Fanning",
+	"item_name" :       "golden scalpel",
+	"item_desc" :       "A fine surgical cutting tool covered in thin gold leaf. Does not seem able to cut anything.",
+	"item_icon_state" : "david_fanning_1",
+	"item_path" :       "/obj/item"
+  }

@@ -1,0 +1,8 @@
+{
+	"ckey" :            "themojavewanderer",
+	"character_name" :  "Krzysztof Kowalczyk",
+	"item_name" :       "worn-out contractor uniform",
+	"item_desc" :       "An old uniform consisting of a set of faded white overalls and a banana yellow shirt with green markings on the arms. A small Terran flag patch sits on the right breast, half obscured by the strap.",
+	"item_icon_state" : "worn_c_uniform",
+	"item_path" :       "/obj/item/clothing/under"
+  }

@@ -1,0 +1,8 @@
+{
+	"ckey" :            "crimsonshrike",
+	"character_name" :  "Guzman Mendoza",
+	"item_name" :       "damaged recorder",
+	"item_desc" :       "A crimson recorder bearing the crest of SolGov. It's dented and cracked in places.",
+	"item_icon_state" : "redrecorder",
+	"item_path" :       "/obj/item/device/taperecorder"
+}

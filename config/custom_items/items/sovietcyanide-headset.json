@@ -1,0 +1,9 @@
+{
+	"ckey" :            "sovietcyanide",
+	"character_name" :  "Andrew Hassen",
+	"item_name" :       "old bowman headset",
+	"item_desc" :       "An old radioman's headset modified to work as a bowman headset.",
+	"item_icon_state" : "headset_old",
+	"item_path" :       "/obj/item/device/radio/headset/bridgeofficer/alt",
+	"req_titles" :      [ "Bridge Officer" ]
+  }

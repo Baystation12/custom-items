@@ -1,0 +1,8 @@
+{
+	"ckey" :            "aticius",
+	"character_name" :  "Zehll Szal Aerets",
+	"item_name" :       "grave islander mask",
+	"item_desc" :       "A piece of steel, or perhaps plasteel, that has been hammered into the form of a mask.",
+	"item_icon_state" : "graveisland",
+	"item_path" :       "/obj/item/clothing/head/welding"
+  }
