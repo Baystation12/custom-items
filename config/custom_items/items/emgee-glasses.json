@@ -4,5 +4,5 @@
 	"item_name" :       "horn-rimmed glasses",
 	"item_desc" :       "A pair of stylish prescription eyeglasses with a brown tortoise shell frame and a silver rim.",
 	"item_icon_state" : "emgee_glasses",
-	"item_path" :       "/obj/item/clothing/glasses/regular"
+	"item_path" :       "/obj/item/clothing/glasses/prescription"
   }
