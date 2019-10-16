@@ -1,7 +1,7 @@
 {
 	"ckey" :            "zenithstar",
 	"character_name" :  "Nikolas Jenkins",
-	"item_name" :       "excavation",
+	"item_name" :       "construction",
 	"item_desc" :       "An engineering voidsuit. A stitched label on the chest reads 'Jenkins Construction'.",
 	"item_icon_state" : "construction",
 	"item_path" :       "/obj/item/device/kit/suit"
