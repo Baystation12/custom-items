@@ -1,0 +1,9 @@
+{
+	"ckey" :            "bluntforce420",
+	"character_name" :  "Tal Ravis",
+	"item_name" :       "jumpable plate carrier",
+	"item_desc" :       "A lightweight, minimalist tan plate carrier designed for maximum mobility without sacrificing protection factor. It features a skeletonized elastic cummerbund, forked load-bearing shoulder straps, and low-visibility plate bags. It can be equipped with armor plates, but provides no protection of its own.",
+	"item_icon_state" : "jumpable_plate_carrier",
+	"item_path" :       "/obj/item/clothing/suit/armor/pcarrier",
+	"req_titles" :      [ "Forensic Technician" ]
+  }
