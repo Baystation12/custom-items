@@ -1,0 +1,8 @@
+{
+	"ckey" :            "kallen1",
+	"character_name" :  "Juuto Manad",
+	"item_name" :       "venusian respirator",
+	"item_desc" :       "An outdated form of respirator utilized on Venus' surface by several companies. Seems to have been modified to have a number of things missing, such as the filter.",
+	"item_icon_state" : "venusian_respirator",
+	"item_path" :       "/obj/item/clothing/mask/breath"
+  }
