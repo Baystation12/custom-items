@@ -1,0 +1,8 @@
+{
+  "ckey" :            "thomascalloway",
+  "character_name" :  "Thomas Calloway",
+  "item_name" :       "OII coffee cup",
+  "item_desc" :       "This sleek, dark grey coffee cup is branded with the three-letter initialism of the Office of Interstellar Intelligence: OII.",
+  "item_icon_state" : "oii_coffee_cup",
+  "item_path" :       "/obj/item/weapon/reagent_containers/food/drinks/glass2/coffeecup"
+}
