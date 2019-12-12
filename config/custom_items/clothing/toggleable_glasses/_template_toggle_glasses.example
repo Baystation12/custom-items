@@ -1,0 +1,19 @@
+{
+  "ckey" :            "fakeperson",
+  "character_name" :  "Joe Bloggs",
+  "item_name" :       "Joe's mesons",
+  "item_desc" :       "Joe's mesons. It courses with basic energy.",
+  "item_icon_state" : "mesons_state",
+  "item_path" :       "/obj/item/clothing/glasses/hud/meson",
+  "additional_data" : { "icon_on" : "mesons_state", "icon_off" : "mesons_state_off"},
+  "req_titles" :      [ "Janitor" ],
+  "req_access" :      [ "ACCESS_CAVEMAN" ]
+}
+
+//ADDITIONAL INFO FOR TOGGLEABLE GLASSES
+
+  * Additional data:
+    icon_on is the icon state used when they are active. It should be the same as item_icon_state
+    icon_off is the icon state used when they're deactivated.
+    Both the on-mob (custom_items_mob.dmi) and obj (custom_items_obj.dmi) must have each of these icons, and they MUST be named the same between files. 
+       If the icon representing the activated glasses is called "gertrude-glasses" in custom_items_mob, it must be named the same in custom_items_obj.

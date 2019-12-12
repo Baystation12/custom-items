@@ -1,8 +1,9 @@
 {
 	"ckey" :            "yourdaddy117",
 	"character_name" :  "Joseph Morgan",
-	"item_name" :       "Meson Aviators",
+	"item_name" :       "meson aviators",
 	"item_desc" :       "A pair of classic aviator glasses with a green tinge. If one were to look, they appear to have an integrated HUD similiar to that of a pair of meson goggles. Only someone very worried about their image would wear these.",
-	"item_icon_state" : "mesonaviators",
-	"item_path" :       "/obj/item/clothing/glasses/hud/meson"
+	"item_icon_state" : "meson_aviators",
+	"item_path" :       "/obj/item/clothing/glasses/meson",
+	"additional_data" : { "icon_on" : "meson_aviators", "icon_off" : "meson_aviators_off"}
 }

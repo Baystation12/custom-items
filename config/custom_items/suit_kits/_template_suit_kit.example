@@ -9,3 +9,9 @@
   "req_titles" :      [ "Janitor" ],
   "req_access" :      [ "ACCESS_CAVEMAN" ]
 }
+
+ADDITIONAL NOTES FOR SUIT KITS
+
+  * Additional data:
+    Unless you're using an existing light overlay state, light_overlay must be provided in both custom_items_obj and custom_items_mob, and it must be named the same
+    in each file.
