@@ -5,18 +5,18 @@
 
 3. Fill out the provided template in the directory of your choice. See chart below for an explanation of the values.
 
-| Key                    | Expected Value   | Function                                                                                                          |
-|------------------------|------------------|-------------------------------------------------------------------------------------------------------------------|
-| ckey                   | string           | Your ckey. This is not quite the same as your BYOND key, ask an admin or check the BYOND docs if you are unsure.  |
-| character_name         | string           | The name of the character the item should spawn with.                                                             |
-| item_name              | string           | The name of your custom item ingame. For kits, the name of the kit product.                                       |
-| item_desc              | string           | The description of your custom item ingame. For kits, the descriptor for the kit product.                         |
-| item_icon_state        | string           | The icon state for your custom item. For kits, the icon state of the kit product.                                 |
-| item_path              | string           | A fully specified BYOND object path (ie. /obj/item/foo/bar).                                                      |
-| apply_to_target_type   | string           | A fully specified BYOND object path (ie. /obj/item/foo/bar) Only set this if you are reskinning an existing item. |
-| req_access             | array of strings | Access strings required for the character to have this item on spawn.                                             |
-| req_titles             | array of strings | Titles and alt titles that are allowed to spawn with this item.                                                   |
-| additional_data        | array of values  | An associative list of other values. Currently used fields: "light_overlay".                                      |
+| Key                    | Expected Value   | Function                                                                                                                |
+|------------------------|------------------|-------------------------------------------------------------------------------------------------------------------------|
+| ckey                   | string           | Your ckey. This is not quite the same as your BYOND key, ask an admin or check the BYOND docs if you are unsure.        |
+| character_name         | string           | The name of the character the item should spawn with.                                                                   |
+| item_name              | string           | The name of your custom item ingame. For kits, the name of the kit product.                                             |
+| item_desc              | string           | The description of your custom item ingame. For kits, the descriptor for the kit product.                               |
+| item_icon_state        | string           | The icon state for your custom item. For kits, the icon state of the kit product.                                       |
+| item_path              | string           | A fully specified BYOND object path (ie. /obj/item/foo/bar).                                                            |
+| apply_to_target_type   | string           | A fully specified BYOND object path (ie. /obj/item/foo/bar) Only set this if you are reskinning an existing item.       |
+| req_access             | array of strings | Access strings required for the character to have this item on spawn.                                                   |
+| req_titles             | array of strings | Titles and alt titles that are allowed to spawn with this item.                                                         |
+| additional_data        | array of values  | An associative list of other values. See each the relevant template for your item for more information on this field.   |
 
 **Note** - All icons should be added to the **END** of the relevant file. This helps organisation.
 
@@ -26,9 +26,7 @@
 
 6. If the item is wearable, add an icon to icons/mob/custom_items.dmi for the on-mob icon.
 
-8. For voidsuit kits:
-  - Add two icons to icons/obj/custom_items.dmi - the icon for the suit, and the helmet, both assigned as `item_icon_state` in your .json file. These icons represent the suit parts when in your inventory.
-  - Add four icons to icons/mob/custom_items.dmi. These are the two in-hand icons (see step 5), the helmet, and the suit. These icons represent the suit parts when held in your hands or equipped. If you already added your in-hand icons in step 5, just add the helmet and suit on-mob icons.
+8. Read the notes section in the template your're using carefully, and set up `additional_data` as directed. If your template has no notes, skip this step.
 
 11. You're done. Compile, test (see final section below), and discover you misspelled a state, etc.
 

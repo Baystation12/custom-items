@@ -1,0 +1,9 @@
+{
+	"ckey" :            "roaper",
+	"character_name" :  "Maxwell Byrne",
+	"item_name" :       "patrol jacket",
+	"item_desc" :       "A weathered patrol jacket of the Concerned Citizens Militia. Although much of it's surface is faded it still retains the barely visable pressed holographic patch of the Twenty Seventh District on it's right shoulder. The worn name sewed into it's pocket reads 'M. Byrne'.",
+	"item_icon_state" : "roaperjack",
+	"item_path" :       "/obj/item/clothing/suit/storage/toggle/suit",
+	"additional_data" : { "icon_closed" : "roaperjack", "icon_open" : "roaperjack_open"}
+}
