@@ -1,0 +1,9 @@
+{
+	"ckey" :            "flyingloulou",
+	"character_name" :  "Shae Djarin",
+	"item_name" :       "worn flight voidsuit",
+	"item_desc" :       "A black flight voidsuit with some thin, lightweight, plasteel armor plates. This one looks worn, and sports many burn marks.",
+	"item_icon_state" : "djarin",
+	"item_path" :       "/obj/item/device/kit/suit",
+	"additional_data" : { "light_overlay" : "yellow_double_light" }
+  }
