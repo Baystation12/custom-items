@@ -1,0 +1,8 @@
+{
+	"ckey" :            "boznar",
+	"character_name" :  "Maya Riedl",
+	"item_name" :       "lightweight",
+	"item_desc" :       "A pricey, lightweight, and form fitting voidsuit designed by Apoapsis Ltd for ease of movement in Low-G environments. The name 'M. Riedl' is inscribed near the collar.",
+	"item_icon_state" : "lightweight",
+	"item_path" :       "/obj/item/device/kit/suit"
+  }
