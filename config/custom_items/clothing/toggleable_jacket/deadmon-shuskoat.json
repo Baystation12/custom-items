@@ -1,0 +1,10 @@
+{
+  "ckey" :            "deadmon_wonderland",
+  "character_name" :  "Lhili Shuskaath",
+  "item_name" :       "Sacred Heart labcoat",
+  "item_desc" :       "A rather ordinary labcoat, this one bears the symbol of the Sacred Heart hospital on the back. Specifically tailored for Shuskaath's size, an ordinary human would find it a bit too big. ",
+  "item_icon_state" : "shuskoat_open",
+  "item_path" :       "/obj/item/clothing/suit/storage/toggle/labcoat",
+ 
+	"additional_data" : { "icon_closed" : "shuskoat_closed", "icon_open" : "shuskoat_open"}
+}
