@@ -1,0 +1,26 @@
+name: Validate Repository
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  Validations:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+      - name: Validate custom items
+        run: |
+          python tools/CustomConfigVerifier/verify-custom-items.py config/custom_items/
+      - name: Validate custom sprites
+        run: |
+          python tools/CustomConfigVerifier/verify-custom-sprites.py config/custom_sprites.txt
