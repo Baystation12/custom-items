@@ -1,5 +1,0 @@
-language: python
-sudo: false
-script:
-  - python tools/CustomConfigVerifier/verify-custom-items.py config/custom_items/
-  - python tools/CustomConfigVerifier/verify-custom-sprites.py config/custom_sprites.txt
