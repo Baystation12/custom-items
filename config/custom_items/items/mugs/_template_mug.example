@@ -4,7 +4,7 @@
   "item_name" :       "Joe's mug",
   "item_desc" :       "Joe's mug. It courses with basic energy.",
   "item_icon_state" : "a_mug_icon_state",
-  "item_path" :       "/obj/item/weapon/reagent_containers/food/drinks/glass2/coffeecup/custom",
+  "item_path" :       "/obj/item/reagent_containers/food/drinks/glass2/coffeecup/custom",
   "additional_data" : { "base_name" : "basic mug" },
   "req_titles" :      [ "Janitor" ],
   "req_access" :      [ "ACCESS_CAVEMAN" ]

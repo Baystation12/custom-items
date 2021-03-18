@@ -4,5 +4,5 @@
   "item_name" :       "rangerknife",
   "item_desc" :       "A Tersten Ranger's knife, K.S. is inscribed into the handle.",
   "item_icon_state" : "ranger_knife",
-  "item_path" :       "/obj/item/weapon/material/knife/utility"
+  "item_path" :       "/obj/item/material/knife/utility"
 }
