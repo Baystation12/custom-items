@@ -1,8 +1,0 @@
-{
-  "ckey" :            "ithalan",
-  "character_name" :  "Victoria Hall",
-  "item_name" :       "Retinal Health Scanner",
-  "item_desc" :       "A small medical scanner similar to the one used in medical HUDs. This one has been designed to connect to and display the information directly on the wearer's implanted retinal overlay. The device includes a simple projector for displaying the data for users with unaugmented eyes.",
-  "item_icon_state" : "vichud",
-  "item_path" :       "/obj/item/clothing/glasses/hud/health"
-}
