@@ -1,9 +1,11 @@
 {
-	"ckey" :            "rodmuth",
-	"character_name" :  "Degbert Kentbritt",
-	"item_name" :       "expensive suit jacket",
-	"item_desc" :       "This suit was handcrafted by one of the finest tailor shops on Selene. Designed using an old silk weave pattern found on Luna, this jacket is the stuff of legends. It is adorned with golden buttons, polished to a glossy finish. If one were to look closely at the buttons, they would find little ornate designs of the coat of arms of Queensland.",
-	"item_icon_state" : "expensive_suit",
-	"item_path" :       "/obj/item/clothing/suit/storage/toggle/suit",
-	"additional_data" : { "icon_closed" : "expensive_suit", "icon_open" : "expensive_suit_open"}
+  "ckey": "rodmuth",
+  "character_name": "Degbert Kentbritt",
+  "item_name": "expensive suit jacket",
+  "item_desc": "This suit was handcrafted by one of the finest tailor shops on Selene. Designed using an old silk weave pattern found on Luna, this jacket is the stuff of legends. It is adorned with golden buttons, polished to a glossy finish. If one were to look closely at the buttons, they would find little ornate designs of the coat of arms of Queensland.",
+  "item_icon_state": "expensive_suit",
+  "item_path": "/obj/item/clothing/suit/storage/toggle/suit",
+  "additional_data": {
+    "custom_icon_state": "expensive_suit"
   }
+}

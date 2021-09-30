@@ -1,19 +1,23 @@
 {
-  "ckey" :            "fakeperson",
-  "character_name" :  "Joe Bloggs",
-  "item_name" :       "Joe's jacket",
-  "item_desc" :       "Joe's jacket. It courses with basic energy.",
-  "item_icon_state" : "joesjacket",
-  "item_path" :       "/obj/item/clothing/suit/storage/toggle",
-  "additional_data" : { "icon_closed" : "joesjacket", "icon_open" : "joesjacket_open"},
-  "req_titles" :      [ "Janitor" ],
-  "req_access" :      [ "ACCESS_CAVEMAN" ]
+  "ckey": "fakeperson",
+  "character_name": "Joe Bloggs",
+  "item_name": "Joe's jacket",
+  "item_desc": "Joe's jacket. It courses with basic energy.",
+  "item_icon_state": "joesjacket",
+  "item_path": "/obj/item/clothing/suit/storage/toggle",
+  "additional_data": {
+    "custom_icon_state": "joesjacket"
+  },
+  "req_titles": [
+    "Janitor"
+  ],
+  "req_access": [
+    "ACCESS_CAVEMAN"
+  ]
 }
 
-//ADDITIONAL INFO FOR TOGGLEABLE JACKETS
-
-  * Additional data:
-    icon_closed is the icon used when the jacket is closed. It should be the same as item_icon_state.
-    icon_open is the icon used when the jackt is open.
-    Both the on-mob (custom_items_mob.dmi) and obj (custom_items_obj.dmi) must have each of these icons, and they MUST be named the same between files. 
-       If the icon representing the closed jacket is called "gertrudejacket" in custom_items_mob, it must be named the same in custom_items_obj.
+// ADDITIONAL INFO FOR TOGGLEABLE JACKETS
+custom_icon_state is the icon used when the jacket is closed. It should be the same as item_icon_state.
+The open icon in the DMI should be named the same as closed, but with "_open" appended.
+Both the on-mob (custom_items_mob.dmi) and obj (custom_items_obj.dmi) must have each of these icons, and they MUST be named the same between files. 
+If the icon representing the closed jacket is called "gertrudejacket" in custom_items_mob, it must be named the same in custom_items_obj.

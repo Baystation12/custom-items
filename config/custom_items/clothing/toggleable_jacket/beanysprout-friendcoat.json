@@ -1,9 +1,11 @@
 {
-	"ckey" :                    "beanysprout",
-	"character_name" :          "Friendbo",
-	"item_name" :               "lavender coat",
-	"item_desc" :               "A soft and cozy purple coat. A perfect fit for a friend.",
-	"item_icon_state" :         "friendcoat",
-	"item_path" :       "/obj/item/clothing/suit/storage/toggle/labcoat",
-	"additional_data" : { "icon_closed" : "friendcoat", "icon_open" : "friendcoat_open"}
+  "ckey": "beanysprout",
+  "character_name": "Friendbo",
+  "item_name": "lavender coat",
+  "item_desc": "A soft and cozy purple coat. A perfect fit for a friend.",
+  "item_icon_state": "friendcoat",
+  "item_path": "/obj/item/clothing/suit/storage/toggle/labcoat",
+  "additional_data": {
+    "custom_icon_state": "friendcoat"
   }
+}
